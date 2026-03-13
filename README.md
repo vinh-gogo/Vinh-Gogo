@@ -13,31 +13,6 @@
 
 ---
 
-## 🎯 About Me
-
-```python
-class AIEngineer:
-    def __init__(self):
-        self.name = "Lê Quang Vinh"
-        self.role = "Machine Learning Engineer"
-        self.specialization = ["Agentic AI", "RAG Systems", "LLM Production"]
-        self.impact = "270K+ tokens @ 99% accuracy"
-        self.location = "Ho Chi Minh City, Vietnam 🇻🇳"
-        self.mission = "Advancing Vietnam's AI ecosystem"
-        
-    def current_focus(self):
-        return {
-            "building": "Production Agent AI & RAG systems",
-            "teaching": "30+ tech sessions & mentorship",
-            "scaling": "AI solutions for Vietnamese businesses"
-        }
-    
-    def say_hi(self):
-        return "Let's build intelligent systems that matter! 🤖"
-
-me = AIEngineer()
-```
-
 <!-- GitHub Stats Grid -->
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Vinh-Gogo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9"/>
