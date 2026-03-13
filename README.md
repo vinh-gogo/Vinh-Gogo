@@ -1,4 +1,3 @@
-```markdown
 <!-- Banner Header with Typing Animation -->
 <div align="center">
   
