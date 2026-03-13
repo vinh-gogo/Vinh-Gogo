@@ -154,31 +154,6 @@
 
 ---
 
-## 📊 GitHub Contribution Graph
-
-<div align="center">
-  
-<!-- Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vinh-Gogo/Vinh-Gogo/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vinh-Gogo/Vinh-Gogo/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Vinh-Gogo/Vinh-Gogo/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-[![trophy](https://github-profile-trophy.vercel.app/?username=Vinh-Gogo&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## 📈 Activity Graph
 
 <div align="center">
