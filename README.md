@@ -137,23 +137,6 @@
 
 ---
 
-## 🎓 Education & Mentorship
-
-<div align="center">
-
-### 🏫 Industrial University of Ho Chi Minh City (2021-2025)
-
-</div>
-
-> 🎤 **Guest Lecturer** - Advanced AI/ML Topics
-
-- 👨‍🏫 Invited by **Assoc.Prof.Dr. Huynh T. Nguyen** to teach specialized AI/ML courses
-- 🎯 Mentor Computer Science final-year students & support interns at partner companies
-- 💡 Demo AI solutions for graduation projects by invitation of **Master Nguyen N. Le**
-- 🌱 **30+ tech sessions** conducted - inspiring next-gen AI talent in Vietnam
-
----
-
 ## 📈 Activity Graph
 
 <div align="center">
