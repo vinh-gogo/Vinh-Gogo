@@ -26,21 +26,6 @@
 
 </div>
 
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/📧_Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lea26462@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/🔗_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
-[![YouTube](https://img.shields.io/badge/📺_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=RHZPNONKj3Q)
-[![Facebook](https://img.shields.io/badge/👥_Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)]([your-facebook-url](https://www.facebook.com/engineer.234th))
-
-### 📱 Direct Contact
-**Email:** lea26462@gmail.com  
-**GitHub:** [@Vinh-Gogo](https://github.com/Vinh-Gogo)
-
-</div>
-
 ---
 
 <div align="center">
