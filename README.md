@@ -14,3 +14,12 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&text=&fontSize=0" width="100%"/>
 
 </div>
+
+## 👁️ Hero Eye Component
+
+<p align="center">
+  <a href="https://github.com/Vinh-Gogo/Vinh-Gogo/blob/main/hero-eye.html">
+    <img src="assets/eye-screenshot.png" width="400"><br>
+    <strong>🎮 Xem Live Demo (có tương tác)</strong>
+  </a>
+</p>
