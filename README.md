@@ -18,7 +18,7 @@
 ## 👁️ Hero Eye Component
 
 <p align="center">
-  <a href="https://github.com/Vinh-Gogo/Vinh-Gogo/blob/main/hero-eye.html">
+  <a href="https://vinh-gogo.vercel.app">
     <img src="assets/eye-screenshot.png" width="400"><br>
     <strong>🎮 Xem Live Demo (có tương tác)</strong>
   </a>
