@@ -1,12 +1,9 @@
-
-<!-- Hero Circle Component - Independent Standalone File -->
-<!-- Can be embedded anywhere: markdown, websites, iframes -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero Circle Eye</title>
+    <title>Realistic Hero Eye</title>
     <style>
         * {
             margin: 0;
@@ -15,126 +12,188 @@
         }
 
         body {
-            background: transparent;
+            /* Nền tối để làm nổi bật con mắt */
+            background: #0f0c29;  
+            background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
             overflow: hidden;
+            perspective: 1000px; /* Thêm phối cảnh 3D */
         }
 
         .hero-circle {
             width: 400px;
             height: 400px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #DAD2F4 0%, #B9A8E8 50%, #e8d5f0 100%);
+            /* Gradient rực rỡ hơn */
+            background: linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%);
             position: relative;
             overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            animation: fadeUp .8s .2s forwards;
+            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
             opacity: 0;
-            box-shadow: 0 20px 60px rgba(185, 168, 232, 0.3);
+            transform: translateY(40px);
+            /* Glow effect */
+            box-shadow: 0 0 50px rgba(111, 66, 193, 0.4), inset 0 0 40px rgba(0,0,0,0.5);
+            transition: box-shadow 0.3s ease;
         }
 
         @keyframes fadeUp {
             to {
                 opacity: 1;
-                transform: translateY(0);
+                transform: translateY(0) rotateX(0) rotateY(0);
             }
         }
 
         .eye-svg {
-            width: 200px;
-            height: 200px;
+            width: 240px;
+            height: 240px;
+            filter: drop-shadow(0 15px 25px rgba(0,0,0,0.5));
         }
 
-        .eye-svg .eye-bg {
-            fill: #DAD2F4;
+        /* Tròng trắng có độ cong 3D */
+        .eye-bg {
+            fill: url(#sclera-grad);
         }
 
-        .eye-svg .eye-shape {
-            fill: #DAD2F4;
-            stroke: #212123;
-            stroke-width: 3;
+        /* Tròng đen */
+        .iris {
+            fill: url(#iris-grad);
+        }
+        
+        /* Viền tròng đen */
+        .iris-ring {
+            fill: none;
+            stroke: #1a0b2e;
+            stroke-width: 1.5;
+            opacity: 0.8;
         }
 
-        .eye-svg .iris {
-            fill: #212123;
-            transition: transform .12s ease-out;
-            transform-origin: center;
+        .pupil {
+            fill: #000;
         }
 
-        .eye-svg .pupil-highlight {
-            fill: #fff;
+        /* Điểm sáng (Mắt ướt) */
+        .pupil-highlight-1 { fill: rgba(255, 255, 255, 0.9); }
+        .pupil-highlight-2 { fill: rgba(255, 255, 255, 0.5); }
+
+        /* Mí mắt */
+        .eyelid-top, .eyelid-bottom {
+            fill: #1f1845; /* Màu mí mắt tệp với viền ngoài */
+            stroke: #0a0514;
+            stroke-width: 2;
         }
 
-        .eye-svg .eyelid-top {
-            fill: #FFEEEE;
-            transform-origin: 67px 55px;
-            animation: eyeBlink 5s infinite;
+        .eyelid-top {
+            transform-origin: center 55px;
+            animation: eyeBlink 6s infinite;
         }
 
+        /* Chớp mắt tự nhiên hơn: Đóng nhanh, mở chậm */
         @keyframes eyeBlink {
-            0%, 92%, 100% {
-                transform: scaleY(0);
-            }
-            94%, 98% {
-                transform: scaleY(1);
-            }
+            0%, 90%, 100% { transform: scaleY(0); }
+            93% { transform: scaleY(1.1); } /* Nhắm quá một chút */
+            96% { transform: scaleY(1); }
         }
 
-        .eye-svg .eyelid-bottom {
-            fill: #FFEEEE;
-        }
-
-        /* Responsive */
         @media (max-width: 500px) {
-            .hero-circle {
-                width: 280px;
-                height: 280px;
-            }
-            .eye-svg {
-                width: 140px;
-                height: 140px;
-            }
+            .hero-circle { width: 280px; height: 280px; }
+            .eye-svg { width: 160px; height: 160px; }
         }
     </style>
 </head>
 <body>
 
-<div class="hero-circle">
+<div class="hero-circle" id="hero-container">
     <svg class="eye-svg" viewBox="0 0 134 134" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path class="eye-bg" d="M67 67C76.2843 67 83.8071 59.7614 83.8071 50.75C83.8071 41.7386 76.2843 34.5 67 34.5C57.7157 34.5 50.1929 41.7386 50.1929 50.75C50.1929 59.7614 57.7157 67 67 67Z"/>
-        <ellipse class="eye-shape" cx="67" cy="67" rx="60" ry="36"/>
-        <circle class="iris" cx="67" cy="67" r="18"/>
-        <circle class="pupil-highlight" cx="61" cy="61" r="5"/>
-        <path class="eyelid-top" d="M7 48C7 48 29 32 67 32C105 32 127 48 127 48V67H7V48Z"/>
-        <path class="eyelid-bottom" d="M7 86C7 86 29 102 67 102C105 102 127 86 127 86V67H7V86Z"/>
+        <defs>
+            <radialGradient id="sclera-grad" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="80%" stop-color="#f0f0f0"/>
+                <stop offset="100%" stop-color="#d1c5e6"/>
+            </radialGradient>
+            <radialGradient id="iris-grad" cx="50%" cy="50%" r="50%" fx="40%" fy="40%">
+                <stop offset="0%" stop-color="#5ff2ff"/>
+                <stop offset="40%" stop-color="#0e5a8a"/>
+                <stop offset="80%" stop-color="#041836"/>
+                <stop offset="100%" stop-color="#010614"/>
+            </radialGradient>
+        </defs>
+
+        <path class="eye-shape-bg" d="M67 34.5C57.7157 34.5 50.1929 41.7386 50.1929 50.75C50.1929 59.7614 57.7157 67 67 67C76.2843 67 83.8071 59.7614 83.8071 50.75C83.8071 41.7386 76.2843 34.5 67 34.5Z" fill="#000"/>
+        
+        <ellipse class="eye-bg" cx="67" cy="67" rx="60" ry="36"/>
+        
+        <g id="eyeball">
+            <circle class="iris" cx="67" cy="67" r="22"/>
+            <circle class="iris-ring" cx="67" cy="67" r="21.5"/>
+            <circle class="pupil" cx="67" cy="67" r="9"/>
+            <circle class="pupil-highlight-1" cx="60" cy="59" r="3.5"/>
+            <circle class="pupil-highlight-2" cx="72" cy="73" r="1.5"/>
+        </g>
+
+        <path class="eyelid-top" d="M0 48C0 48 33 28 67 28C101 28 134 48 134 48V67H0V48Z"/>
+        <path class="eyelid-bottom" d="M0 86C0 86 33 106 67 106C101 106 134 86 134 86V67H0V86Z"/>
     </svg>
 </div>
 
 <script>
-    // Eye follow mouse logic
-    const iris = document.querySelector('.iris');
-    const circle = document.querySelector('.hero-circle');
+    const eyeball = document.getElementById('eyeball');
+    const container = document.getElementById('hero-container');
+    
+    // Biến lưu trữ vị trí mục tiêu (chuột) và vị trí hiện tại (dùng để LERP)
+    let targetX = 0, targetY = 0;
+    let currentX = 0, currentY = 0;
+    
+    // Biến cho 3D tilt
+    let targetTiltX = 0, targetTiltY = 0;
+    let currentTiltX = 0, currentTiltY = 0;
 
     document.addEventListener('mousemove', (e) => {
-        const rect = circle.getBoundingClientRect();
+        const rect = container.getBoundingClientRect();
         const centerX = rect.left + rect.width / 2;
         const centerY = rect.top + rect.height / 2;
 
         const deltaX = e.clientX - centerX;
         const deltaY = e.clientY - centerY;
 
-        // Max movement limit
-        const maxMove = 5;
-        const moveX = Math.max(-maxMove, Math.min(maxMove, deltaX / 30));
-        const moveY = Math.max(-maxMove, Math.min(maxMove, deltaY / 30));
+        // Giới hạn di chuyển của nhãn cầu
+        const maxMoveX = 14;
+        const maxMoveY = 8;
+        
+        // Tính toán tỷ lệ dựa trên kích thước màn hình
+        targetX = Math.max(-maxMoveX, Math.min(maxMoveX, deltaX / 25));
+        targetY = Math.max(-maxMoveY, Math.min(maxMoveY, deltaY / 25));
 
-        iris.style.transform = `translate(${moveX}px, ${moveY}px)`;
+        // Tính toán góc nghiêng 3D cho Container
+        targetTiltX = -(deltaY / 30); // Giới hạn góc nghiêng
+        targetTiltY = (deltaX / 30);
     });
+
+    // Vòng lặp Animation (Tạo độ mượt tự nhiên)
+    function animate() {
+        // LERP (Linear Interpolation) - Di chuyển 10% khoảng cách mỗi frame
+        currentX += (targetX - currentX) * 0.15;
+        currentY += (targetY - currentY) * 0.15;
+        
+        currentTiltX += (targetTiltX - currentTiltX) * 0.08;
+        currentTiltY += (targetTiltY - currentTiltY) * 0.08;
+
+        // Áp dụng di chuyển cho tròng mắt
+        eyeball.style.transform = `translate(${currentX}px, ${currentY}px)`;
+        
+        // Áp dụng nghiêng 3D cho khung ngoài
+        container.style.transform = `perspective(1000px) rotateX(${currentTiltX}deg) rotateY(${currentTiltY}deg)`;
+
+        requestAnimationFrame(animate);
+    }
+
+    // Khởi chạy vòng lặp
+    animate();
 </script>
 
 </body>
