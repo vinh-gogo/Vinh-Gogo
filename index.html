@@ -153,8 +153,18 @@
     let targetTiltX = 0, targetTiltY = 0;
     let currentTiltX = 0, currentTiltY = 0;
 
+    // Cache bounding rect to avoid layout thrashing
+    let rect = container.getBoundingClientRect();
+
+    window.addEventListener('resize', () => {
+        rect = container.getBoundingClientRect();
+    });
+
+    window.addEventListener('scroll', () => {
+        rect = container.getBoundingClientRect();
+    }, true);
+
     document.addEventListener('mousemove', (e) => {
-        const rect = container.getBoundingClientRect();
         const centerX = rect.left + rect.width / 2;
         const centerY = rect.top + rect.height / 2;
 
