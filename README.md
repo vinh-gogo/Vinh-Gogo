@@ -19,7 +19,7 @@ Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@g
 
 | Dự án | Mô tả | Công nghệ |
 | :--- | :--- | :--- |
-| **[GLORY-TIKTOK](https://github.com/vinh-gogo/GLORY-TIKTOK)**<br>[glory.one.learns.dev](https://glory.one.learns.dev) | Website bài học TOEIC Speaking. Mỗi video TikTok tương ứng một bộ bài gồm từ vựng và mẫu câu. | ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=flat-square&logo=hugo&logoColor=white) ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[GLORY-TIKTOK](https://github.com/vinh-gogo/GLORY-TIKTOK)**<br>[gloryvocab.com](https://gloryvocab.com) | Website bài học TOEIC. Mỗi video TikTok tương ứng một bộ bài gồm từ vựng và mẫu câu. | ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=flat-square&logo=hugo&logoColor=white) ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
 
 <!-- Thêm link Demo YouTube và Báo cáo của dự án Multi-Agent vào ô mô tả bên trên nếu bạn muốn công khai. -->
 
