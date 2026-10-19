@@ -13,7 +13,7 @@ Mình là kỹ sư AI. Mình xây hệ thống LLM và Multi-Agent, đi từ ý 
 
 Dự án gần nhất của mình là một hệ thống Agentic tư vấn bất động sản xây bằng LangGraph. Hệ thống đã được demo trực tiếp cho khách và chốt hợp đồng triển khai với UNITE.
 
-Ngoài giờ làm, mình giữ một website luyện TOEIC Speaking cho kênh TikTok **@glory01**.
+Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@glory01**.
 
 ## Dự án nổi bật
 
