@@ -1,209 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realistic Hero Eye</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphZTc1MmVmYS1hN2Y5LTQ2ODItOWJlOC04ZmQ3NWNlNDU4YzUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGgdZiDuBPULpoNn75vj0VIAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowYmUwZWZmYS04ZWZmLTQ1ZTQtYjgxZS0zNGRlNDkzM2VkYzVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo7lFyQEeCWfiJ1t2AGM4VfgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggXjPb0YlKo/QlZjMyhq4YTG4uWWkW7ZmoWXInXpoSdNCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJrLWN0pZWPjmXWWUYmKZREAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAyCIEnq4K5VHDWPmsWOH/EottdgcmKksjjvIdmJkZRhGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjeZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmFlNzUyZWZhLWE3ZjktNDY4Mi05YmU4LThmZDc1Y2U0NThjNS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjA4ZDg3NzcxLWI4NDgtNGJkYy1hNWU0LTE2MDZjN2ZiNjY5OXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBeM9vRiUqj9CVmMzKGrhhMbi5ZaRbtmahZcidemhJ00KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg3DVxFbemUzZ7P9ipGXSqz8YK8WG3P7GLwIhkbnZrZD6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggkI+zpHUui6q/WVhcZcoFIuJDC2ydozh7eWOUSCfyVuN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQK7wAhZqoAr12nQbCEuzfQa4Mt1pUI0/XbictzHaJIf4QJgs7lqjLbvE+sC92dGvT/6MLATnwDFYr/7UA34McUY=</c2pa:manifest></metadata>
+  <title id="t">vinh-gogo</title>
+  <desc id="d">Con mắt hoạt hình chớp mắt và đảo nhìn quanh, bên cạnh tên và vai trò Kỹ sư AI.</desc>
 
-        body {
-            /* Nền tối để làm nổi bật con mắt */
-            background: #0f0c29;  
-            background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            overflow: hidden;
-            perspective: 1000px; /* Thêm phối cảnh 3D */
-        }
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#24243e"/>
+      <stop offset="0.5" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#0f0c29"/>
+    </linearGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8c0ff"/>
+      <stop offset="1" stop-color="#3f2b96"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8c0ff"/>
+      <stop offset="1" stop-color="#5ff2ff"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0.62" stop-color="#6f42c1" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6f42c1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sclera" cx="0.5" cy="0.5" r="0.5" fx="0.3" fy="0.3">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.8" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#d1c5e6"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="0.5" cy="0.5" r="0.5" fx="0.4" fy="0.4">
+      <stop offset="0" stop-color="#5ff2ff"/>
+      <stop offset="0.4" stop-color="#0e5a8a"/>
+      <stop offset="0.8" stop-color="#041836"/>
+      <stop offset="1" stop-color="#010614"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f1845" stop-opacity="0.45"/>
+      <stop offset="0.4" stop-color="#1f1845" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1f1845" stop-opacity="0.2"/>
+    </linearGradient>
+    <clipPath id="eye">
+      <ellipse cx="67" cy="67" rx="60" ry="36"/>
+    </clipPath>
+  </defs>
 
-        .hero-circle {
-            width: 400px;
-            height: 400px;
-            border-radius: 50%;
-            /* Gradient rực rỡ hơn */
-            background: linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%);
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-            opacity: 0;
-            transform: translateY(40px);
-            /* Glow effect */
-            box-shadow: 0 0 50px rgba(111, 66, 193, 0.4), inset 0 0 40px rgba(0,0,0,0.5);
-            transition: box-shadow 0.3s ease;
-        }
-
-        @keyframes fadeUp {
-            to {
-                opacity: 1;
-                transform: translateY(0) rotateX(0) rotateY(0);
-            }
-        }
-
-        .eye-svg {
-            width: 240px;
-            height: 240px;
-            filter: drop-shadow(0 15px 25px rgba(0,0,0,0.5));
-        }
-
-        /* Tròng trắng có độ cong 3D */
-        .eye-bg {
-            fill: url(#sclera-grad);
-        }
-
-        /* Tròng đen */
-        .iris {
-            fill: url(#iris-grad);
-        }
-        
-        /* Viền tròng đen */
-        .iris-ring {
-            fill: none;
-            stroke: #1a0b2e;
-            stroke-width: 1.5;
-            opacity: 0.8;
-        }
-
-        .pupil {
-            fill: #000;
-        }
-
-        /* Điểm sáng (Mắt ướt) */
-        .pupil-highlight-1 { fill: rgba(255, 255, 255, 0.9); }
-        .pupil-highlight-2 { fill: rgba(255, 255, 255, 0.5); }
-
-        /* Mí mắt */
-        .eyelid-top, .eyelid-bottom {
-            fill: #1f1845; /* Màu mí mắt tệp với viền ngoài */
-            stroke: #0a0514;
-            stroke-width: 2;
-        }
-
-        .eyelid-top {
-            transform-origin: center 55px;
-            animation: eyeBlink 6s infinite;
-        }
-
-        /* Chớp mắt tự nhiên hơn: Đóng nhanh, mở chậm */
-        @keyframes eyeBlink {
-            0%, 90%, 100% { transform: scaleY(0); }
-            93% { transform: scaleY(1.1); } /* Nhắm quá một chút */
-            96% { transform: scaleY(1); }
-        }
-
-        @media (max-width: 500px) {
-            .hero-circle { width: 280px; height: 280px; }
-            .eye-svg { width: 160px; height: 160px; }
-        }
-    </style>
-</head>
-<body>
-
-<div class="hero-circle" id="hero-container">
-    <svg class="eye-svg" viewBox="0 0 134 134" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <radialGradient id="sclera-grad" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
-                <stop offset="0%" stop-color="#ffffff"/>
-                <stop offset="80%" stop-color="#f0f0f0"/>
-                <stop offset="100%" stop-color="#d1c5e6"/>
-            </radialGradient>
-            <radialGradient id="iris-grad" cx="50%" cy="50%" r="50%" fx="40%" fy="40%">
-                <stop offset="0%" stop-color="#5ff2ff"/>
-                <stop offset="40%" stop-color="#0e5a8a"/>
-                <stop offset="80%" stop-color="#041836"/>
-                <stop offset="100%" stop-color="#010614"/>
-            </radialGradient>
-        </defs>
-
-        <path class="eye-shape-bg" d="M67 34.5C57.7157 34.5 50.1929 41.7386 50.1929 50.75C50.1929 59.7614 57.7157 67 67 67C76.2843 67 83.8071 59.7614 83.8071 50.75C83.8071 41.7386 76.2843 34.5 67 34.5Z" fill="#000"/>
-        
-        <ellipse class="eye-bg" cx="67" cy="67" rx="60" ry="36"/>
-        
-        <g id="eyeball">
-            <circle class="iris" cx="67" cy="67" r="22"/>
-            <circle class="iris-ring" cx="67" cy="67" r="21.5"/>
-            <circle class="pupil" cx="67" cy="67" r="9"/>
-            <circle class="pupil-highlight-1" cx="60" cy="59" r="3.5"/>
-            <circle class="pupil-highlight-2" cx="72" cy="73" r="1.5"/>
-        </g>
-
-        <path class="eyelid-top" d="M0 48C0 48 33 28 67 28C101 28 134 48 134 48V67H0V48Z"/>
-        <path class="eyelid-bottom" d="M0 86C0 86 33 106 67 106C101 106 134 86 134 86V67H0V86Z"/>
-    </svg>
-</div>
-
-<script>
-    const eyeball = document.getElementById('eyeball');
-    const container = document.getElementById('hero-container');
-    
-    // Cache the bounding rectangle of the container
-    let rect = container.getBoundingClientRect();
-
-    // Update the cached rectangle on resize or scroll
-    const updateRect = () => {
-        rect = container.getBoundingClientRect();
-    };
-    window.addEventListener('resize', updateRect);
-    window.addEventListener('scroll', updateRect);
-
-    // Biến lưu trữ vị trí mục tiêu (chuột) và vị trí hiện tại (dùng để LERP)
-    let targetX = 0, targetY = 0;
-    let currentX = 0, currentY = 0;
-    
-    // Biến cho 3D tilt
-    let targetTiltX = 0, targetTiltY = 0;
-    let currentTiltX = 0, currentTiltY = 0;
-
-    document.addEventListener('mousemove', (e) => {
-        const centerX = rect.left + rect.width / 2;
-        const centerY = rect.top + rect.height / 2;
-
-        const deltaX = e.clientX - centerX;
-        const deltaY = e.clientY - centerY;
-
-        // Giới hạn di chuyển của nhãn cầu
-        const maxMoveX = 14;
-        const maxMoveY = 8;
-        
-        // Tính toán tỷ lệ dựa trên kích thước màn hình
-        targetX = Math.max(-maxMoveX, Math.min(maxMoveX, deltaX / 25));
-        targetY = Math.max(-maxMoveY, Math.min(maxMoveY, deltaY / 25));
-
-        // Tính toán góc nghiêng 3D cho Container
-        targetTiltX = -(deltaY / 30); // Giới hạn góc nghiêng
-        targetTiltY = (deltaX / 30);
-    });
-
-    // Vòng lặp Animation (Tạo độ mượt tự nhiên)
-    function animate() {
-        // LERP (Linear Interpolation) - Di chuyển 10% khoảng cách mỗi frame
-        currentX += (targetX - currentX) * 0.15;
-        currentY += (targetY - currentY) * 0.15;
-        
-        currentTiltX += (targetTiltX - currentTiltX) * 0.08;
-        currentTiltY += (targetTiltY - currentTiltY) * 0.08;
-
-        // Áp dụng di chuyển cho tròng mắt
-        eyeball.style.transform = `translate(${currentX}px, ${currentY}px)`;
-        
-        // Áp dụng nghiêng 3D cho khung ngoài
-        container.style.transform = `perspective(1000px) rotateX(${currentTiltX}deg) rotateY(${currentTiltY}deg)`;
-
-        requestAnimationFrame(animate);
+  <style>
+    /* Nhìn quanh: ưu tiên liếc sang phải, về phía tên */
+    .gaze { animation: gaze 9s ease-in-out infinite; }
+    @keyframes gaze {
+      0%, 8%   { transform: translate(0, 0); }
+      16%, 34% { transform: translate(13px, -3px); }
+      42%, 52% { transform: translate(-11px, 3px); }
+      60%, 68% { transform: translate(3px, 7px); }
+      76%, 92% { transform: translate(13px, -3px); }
+      100%     { transform: translate(0, 0); }
     }
 
-    // Khởi chạy vòng lặp
-    animate();
-</script>
+    /* Chớp mắt: đóng nhanh, mở chậm hơn một chút */
+    .lid-t { transform: translateY(-46px); animation: lt 5.5s ease-in-out infinite; }
+    .lid-b { transform: translateY(34px);  animation: lb 5.5s ease-in-out infinite; }
+    .lash  { opacity: 0;                   animation: ls 5.5s ease-in-out infinite; }
+    @keyframes lt { 0%, 88%, 100% { transform: translateY(-46px); } 91%, 92% { transform: translateY(0); } 96.5% { transform: translateY(-46px); } }
+    @keyframes lb { 0%, 88%, 100% { transform: translateY(34px); }  91%, 92% { transform: translateY(0); } 96.5% { transform: translateY(34px); } }
+    @keyframes ls { 0%, 88%, 100% { opacity: 0; } 91%, 92% { opacity: 1; } 96.5% { opacity: 0; } }
 
-</body>
-</html>
+    .h { font: 700 56px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: url(#name); }
+    .s { font: 500 22px "Segoe UI", Helvetica, Arial, sans-serif; fill: #d1c5e6; }
+    .m { font: 400 16px "Segoe UI", Helvetica, Arial, sans-serif; fill: #a39dd1; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .gaze, .lid-t, .lid-b, .lash { animation: none; }
+    }
+  </style>
+
+  <rect width="960" height="320" rx="20" fill="url(#bg)"/>
+
+  <!-- Quầng sáng + đĩa tròn -->
+  <circle cx="190" cy="160" r="170" fill="url(#halo)"/>
+  <circle cx="190" cy="160" r="125" fill="url(#disc)" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+
+  <!-- Con mắt -->
+  <g transform="translate(190 160) scale(1.25) translate(-67 -67)">
+    <ellipse cx="67" cy="67" rx="60" ry="36" fill="url(#sclera)"/>
+    <g clip-path="url(#eye)">
+      <g class="gaze">
+        <circle cx="67" cy="67" r="22" fill="url(#iris)"/>
+        <circle cx="67" cy="67" r="21.5" fill="none" stroke="#1a0b2e" stroke-width="1.5" opacity="0.8"/>
+        <circle cx="67" cy="67" r="9" fill="#000">
+          <animate attributeName="r" values="9;10.5;9" dur="4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="60" cy="59" r="3.5" fill="#fff" fill-opacity="0.9"/>
+        <circle cx="72" cy="73" r="1.5" fill="#fff" fill-opacity="0.5"/>
+      </g>
+      <ellipse cx="67" cy="67" rx="60" ry="36" fill="url(#shade)"/>
+      <path class="lid-t" d="M-5 -70H139V67Q67 82 -5 67Z" fill="#5b53bb"/>
+      <path class="lid-b" d="M-5 67Q67 82 139 67V200H-5Z" fill="#5b53bb"/>
+    </g>
+    <path class="lash" d="M7 67Q67 80 127 67" fill="none" stroke="#0a0514" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="67" cy="67" rx="60" ry="36" fill="none" stroke="#0a0514" stroke-opacity="0.55" stroke-width="2"/>
+  </g>
+
+  <!-- Chữ -->
+  <text class="h" x="372" y="140">vinh-gogo</text>
+  <text class="s" x="374" y="184">Kỹ sư AI chuyên LLM và hệ thống Multi-Agent</text>
+  <text class="m" x="374" y="222">Dự án gần đây: Agentic tư vấn bất động sản với LangGraph</text>
+</svg>
