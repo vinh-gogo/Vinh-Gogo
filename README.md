@@ -15,12 +15,6 @@ Dự án gần nhất của mình là một hệ thống Agentic tư vấn bất
 
 Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@glory01**.
 
-## Dự án nổi bật
-
-| Dự án | Mô tả | Công nghệ |
-| :--- | :--- | :--- |
-| **[GLORY-TIKTOK](https://github.com/vinh-gogo/GLORY-TIKTOK)**<br>[gloryvocab.com](https://gloryvocab.com) | Website bài học TOEIC. Mỗi video TikTok tương ứng một bộ bài gồm từ vựng và mẫu câu. | ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=flat-square&logo=hugo&logoColor=white) ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
-
 <!-- Thêm link Demo YouTube và Báo cáo của dự án Multi-Agent vào ô mô tả bên trên nếu bạn muốn công khai. -->
 
 ## Công nghệ
@@ -47,5 +41,5 @@ Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@g
 
 <!-- Thay YOUR_EMAIL và YOUR-LINKEDIN-ID bằng thông tin của bạn, hoặc xóa dòng không dùng. -->
 
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-liên%20hệ-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Email"></a>
+<a href="mailto:lea26462@gmail.com"><img src="https://img.shields.io/badge/Email-liên%20hệ-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Email"></a>
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-kết%20nối-3f2b96?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0c29" alt="LinkedIn"></a>
