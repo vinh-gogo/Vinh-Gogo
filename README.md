@@ -38,7 +38,8 @@ Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@g
 
 <div align="center">
 
-<img height="170" alt="Ngôn ngữ dùng nhiều nhất" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6">
+<!-- hide=jupyter%20notebook: loại file .ipynb (chỉ dùng để research) khỏi thống kê ngôn ngữ -->
+<img height="170" alt="Ngôn ngữ dùng nhiều nhất" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6">
 
 </div>
 
