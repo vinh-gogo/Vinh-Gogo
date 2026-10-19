@@ -19,7 +19,6 @@ Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@g
 
 | Dự án | Mô tả | Công nghệ |
 | :--- | :--- | :--- |
-| **Multi-Agent CSKH và đặt hàng tự động**<br>Freelance, 08/2025 đến 03/2026 | Nhóm 3 người xây hệ thống nhiều agent chăm sóc khách hàng và nhận đơn tự động. Bản demo thực tế dẫn tới hợp đồng làm Agentic tư vấn bất động sản cho UNITE. | ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | **[GLORY-TIKTOK](https://github.com/vinh-gogo/GLORY-TIKTOK)**<br>[glory.one.learns.dev](https://glory.one.learns.dev) | Website bài học TOEIC Speaking. Mỗi video TikTok tương ứng một bộ bài gồm từ vựng và mẫu câu. | ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=flat-square&logo=hugo&logoColor=white) ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white) |
 
 <!-- Thêm link Demo YouTube và Báo cáo của dự án Multi-Agent vào ô mô tả bên trên nếu bạn muốn công khai. -->
@@ -39,7 +38,6 @@ Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@g
 
 <div align="center">
 
-<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=vinh-gogo&show_icons=true&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6&icon_color=5ff2ff">
 <img height="170" alt="Ngôn ngữ dùng nhiều nhất" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6">
 
 </div>
