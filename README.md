@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/eye-header.svg" alt="vinh-gogo, Kỹ sư AI chuyên LLM và hệ thống Multi-Agent" width="100%">
+<img src="eye-header.svg" alt="vinh-gogo, Kỹ sư AI chuyên LLM và hệ thống Multi-Agent" width="100%">
 
 <a href="https://github.com/vinh-gogo?tab=followers"><img src="https://img.shields.io/github/followers/vinh-gogo?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0c29&color=3f2b96" alt="GitHub followers"></a>
 <a href="https://github.com/vinh-gogo?tab=repositories"><img src="https://img.shields.io/badge/Repositories-xem%20t%E1%BA%A5t%20c%E1%BA%A3-3f2b96?style=for-the-badge&logo=git&logoColor=white&labelColor=0f0c29" alt="Repositories"></a>
