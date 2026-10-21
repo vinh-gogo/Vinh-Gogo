@@ -1,23 +1,23 @@
 <div align="center">
 
-<img src="eye-header.svg" alt="vinh-gogo, Kỹ sư AI chuyên LLM và hệ thống Multi-Agent" width="100%">
+<img src="eye-header.svg" alt="vinh-gogo, AI Engineer building LLM and Multi-Agent systems" width="100%">
 
 <a href="https://github.com/vinh-gogo?tab=followers"><img src="https://img.shields.io/github/followers/vinh-gogo?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0c29&color=3f2b96" alt="GitHub followers"></a>
-<a href="https://github.com/vinh-gogo?tab=repositories"><img src="https://img.shields.io/badge/Repositories-xem%20t%E1%BA%A5t%20c%E1%BA%A3-3f2b96?style=for-the-badge&logo=git&logoColor=white&labelColor=0f0c29" alt="Repositories"></a>
+<a href="https://github.com/vinh-gogo?tab=repositories"><img src="https://img.shields.io/badge/Repositories-view%20all-3f2b96?style=for-the-badge&logo=git&logoColor=white&labelColor=0f0c29" alt="Repositories"></a>
 
 </div>
 
-## Xin chào
+## Hello
 
-Mình là kỹ sư AI. Mình xây hệ thống LLM và Multi-Agent, đi từ ý tưởng tới bản demo chạy được trước khách hàng.
+I am an AI engineer. I build LLM and Multi-Agent systems, from the first idea to a working demo in front of clients.
 
-Dự án gần nhất của mình là một hệ thống Agentic tư vấn bất động sản xây bằng LangGraph. Hệ thống đã được demo trực tiếp cho khách và chốt hợp đồng triển khai với UNITE.
+My latest project is an Agentic real estate advisor system built with LangGraph. I showed it to the client in a live demo, and we signed a contract with UNITE to deploy it.
 
-Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@glory01**.
+In my free time, I run a TOEIC practice website for the TikTok channel **@glory01**.
 
-<!-- Thêm link Demo YouTube và Báo cáo của dự án Multi-Agent vào ô mô tả bên trên nếu bạn muốn công khai. -->
+<!-- Add the YouTube demo link and the report of the Multi-Agent project to the text above if you want to make them public. -->
 
-## Công nghệ
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
@@ -26,20 +26,23 @@ Ngoài giờ làm, mình giữ một website luyện TOEIC cho kênh TikTok **@g
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 
-<!-- Thêm các công nghệ khác bạn dùng bằng cùng mẫu badge: https://shields.io và https://simpleicons.org -->
+<!-- Add the other technologies you use with the same badge pattern: https://shields.io and https://simpleicons.org -->
 
-## Thống kê GitHub
+## GitHub Stats
 
 <div align="center">
 
-<!-- hide=jupyter%20notebook: loại file .ipynb (chỉ dùng để research) khỏi thống kê ngôn ngữ -->
-<img height="170" alt="Ngôn ngữ dùng nhiều nhất" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6">
+<!-- hide=jupyter%20notebook: removes .ipynb files (used only for research) from the language stats -->
+<img height="170" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6">
 
 </div>
 
-## Liên hệ
+## Contact
 
-<!-- Thay YOUR_EMAIL và YOUR-LINKEDIN-ID bằng thông tin của bạn, hoặc xóa dòng không dùng. -->
+<!-- Replace YOUR-LINKEDIN-ID with your own LinkedIn ID, or delete the line you do not use. -->
 
-<a href="mailto:lea26462@gmail.com"><img src="https://img.shields.io/badge/Email-liên%20hệ-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Email"></a>
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-kết%20nối-3f2b96?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0c29" alt="LinkedIn"></a>
+<a href="mailto:lea26462@gmail.com"><img src="https://img.shields.io/badge/Email-contact%20me-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Email"></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-connect-3f2b96?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0c29" alt="LinkedIn"></a>
+
+
+---
