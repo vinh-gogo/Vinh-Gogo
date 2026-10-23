@@ -19,14 +19,13 @@ In my free time, I run a TOEIC practice website for the TikTok channel **@glory0
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+<div align="center">
 
-<!-- Add the other technologies you use with the same badge pattern: https://shields.io and https://simpleicons.org -->
+<img src="tech-stack.svg" alt="Tech stack: Python, LangGraph, Hugo, Cloudflare, Git, LaTeX" width="100%">
+
+</div>
+
+<!-- The icons above are drawn in tech-stack.svg (app-icon style). To add another technology, ask for it to be added to that file. -->
 
 ## GitHub Stats
 
@@ -43,6 +42,3 @@ In my free time, I run a TOEIC practice website for the TikTok channel **@glory0
 
 <a href="mailto:lea26462@gmail.com"><img src="https://img.shields.io/badge/Email-contact%20me-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Email"></a>
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-connect-3f2b96?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0c29" alt="LinkedIn"></a>
-
-
----
