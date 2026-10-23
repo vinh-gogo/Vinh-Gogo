@@ -18,90 +18,38 @@ In my free time, I run a TOEIC practice website for the TikTok channel **@glory0
 ## Tech Stack
 
 <!-- Icons come from Simple Icons (https://simpleicons.org). Plain icons, no background. Format: https://cdn.simpleicons.org/<slug>/<optional hex color> -->
+<!-- point-cloud.svg is a custom icon stored in this repo (Simple Icons has no Point Cloud logo) -->
 
 <div align="center">
 
-**LLM, RAG and Agents**<br>
-<img src="https://cdn.simpleicons.org/python" height="40" alt="Python">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/pytorch" height="40" alt="PyTorch">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/langchain/8b949e" height="40" alt="LangGraph">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/neo4j" height="40" alt="Neo4j">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/googlegemini" height="40" alt="Gemini API">
-
-**Backend and DevOps**<br>
-<img src="https://cdn.simpleicons.org/fastapi" height="40" alt="FastAPI">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/postgresql" height="40" alt="PostgreSQL">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/docker" height="40" alt="Docker">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/githubactions" height="40" alt="GitHub Actions">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/linux" height="40" alt="Linux">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/git" height="40" alt="Git">
-
-**Web and Edge**<br>
-<img src="https://cdn.simpleicons.org/hugo" height="40" alt="Hugo">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/cloudflare" height="40" alt="Cloudflare Pages, Functions and D1">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/javascript" height="40" alt="JavaScript">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/nextdotjs/8b949e" height="40" alt="Next.js">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/sqlite/0f80cc" height="40" alt="SQLite and IndexedDB">
-
-**Mobile and Desktop**<br>
-<img src="https://cdn.simpleicons.org/kotlin" height="40" alt="Kotlin Multiplatform">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/jetpackcompose" height="40" alt="Compose Multiplatform">&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/android" height="40" alt="Android">
-
-**Docs**<br>
-<img src="https://cdn.simpleicons.org/latex" height="40" alt="LaTeX">
+<img src="https://cdn.simpleicons.org/python" height="38" alt="Python">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/pytorch" height="38" alt="PyTorch">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/tensorflow" height="38" alt="TensorFlow">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/huggingface" height="38" alt="Hugging Face">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/langchain/8b949e" height="38" alt="LangChain and LangGraph">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/neo4j" height="38" alt="Neo4j">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/googlegemini" height="38" alt="Gemini API">&nbsp;&nbsp;
+<img src="point-cloud.svg" height="38" alt="Point Cloud">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/fastapi" height="38" alt="FastAPI">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/postgresql" height="38" alt="PostgreSQL">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/docker" height="38" alt="Docker">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/githubactions" height="38" alt="GitHub Actions">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/linux" height="38" alt="Linux">
+<br><br>
+<img src="https://cdn.simpleicons.org/git" height="38" alt="Git">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/googlecloud" height="38" alt="Google Cloud Platform">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/hugo" height="38" alt="Hugo">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/cloudflare" height="38" alt="Cloudflare Pages, Functions and D1">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/googlesearchconsole" height="38" alt="Google Search Console">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/javascript" height="38" alt="JavaScript">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/nextdotjs/8b949e" height="38" alt="Next.js">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/sqlite/0f80cc" height="38" alt="SQLite and IndexedDB">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/kotlin" height="38" alt="Kotlin Multiplatform">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/jetpackcompose" height="38" alt="Compose Multiplatform">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/android" height="38" alt="Android">&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/latex" height="38" alt="LaTeX">
 
 </div>
-
-## What I Build
-
-### Multi-Agent Customer Support and Real Estate Advisor
-
-Demoed to real clients and signed a contract with UNITE Co. [Demo](https://youtu.be/fmhQLR4_IHE) · [Report](https://glory-hinody.pages.dev/posts/multi-agent-workflow-langraph/)
-
-- **LangGraph** multi-agent workflow with a **Semantic Router**: it detects the user's intent, then hands off to the right agent (check menu, check stock, create bill, real estate consulting).
-- **Hybrid Search** (semantic + **BM25**) reaches **95% Hit@1** and **99% Hit@5** on 3,200 labeled queries from real chat logs.
-- Data pipeline that turns raw Excel (`.xlsx`) files into clean text, images and structured data for the agents.
-
-### pdf-rag: Water and ESG Report Search
-
-Built at WETEC. [GitHub](https://github.com/Vinh-Gogo/pdf-rag)
-
-- **Vision-OCR** (**Qwen2-VL**) plus **LLM post-processing** (**Qwen3**) to check words: **99.7% text accuracy** on 168 pages with multi-column text and tables.
-- **Hybrid RAG** (**Qdrant** + **BM25**): search by paragraph, return the full page. **80% Hit@10**, +24% MRR.
-- **FastAPI Streaming** + **Next.js** UI with PDF upload and page citations, packed with **Docker**, running local models so company data stays private.
-
-### Glory Vocab: Multilingual TOEIC Vocabulary Platform
-
-[gloryvocab.com](https://gloryvocab.com) · [GitHub](https://github.com/Vinh-Gogo/GLORY-TIKTOK) · **29,450 requests/week** from 35+ countries · **$0/month** server cost
-
-- **Offline-first**: guests learn fully offline with **IndexedDB** and a **Service Worker**; **Cloudflare Pages Functions + D1** at the edge for optional Google sync.
-- **FSRS** spaced repetition with a **commutative merge**, so devices can sync in any order. The browser and the edge run the same merge logic, checked by shared test fixtures.
-- **Static site at scale**: **Hugo** + PaperMod generates thousands of SEO pages in 3 languages (Vietnamese, English, Japanese), with a file budget that stays under the Cloudflare Pages limit.
-- **WAF + rate limiting** to block scrapers, and **privacy first**: no telemetry, no tracking scripts, no IP logging.
-- **Vanilla JS and CSS design tokens**: no framework, dark and light themes, mobile-first.
-- **Quality gates**: Python validators, Node test runner (416 tests), performance budgets, and **GitHub Actions** CI/CD to Cloudflare Pages. User bug reports are turned into GitHub Issues automatically.
-- **AI-agent workflow** (`AGENTS.md`): an Orchestrator that only plans and reviews, plus specialist subagents (data, frontend, edge backend, i18n, performance, security, QA, release) with strict file ownership and evidence-based handoffs.
-
-### AI Lingua: Cross-Platform Language Learning App
-
-[GitHub](https://github.com/Vinh-Gogo/ai-english) · [Demo](https://vt.tiktok.com/ZSbkSYhjv/) · [Report](https://glory-hinody.pages.dev/posts/on-device-ai-onnx-kotlin/)
-
-- **Kotlin Multiplatform** + **Compose Multiplatform** (one codebase for Desktop and Mobile), **MVI**, Clean Architecture, **SQLDelight**.
-- **On-device Vietnamese handwriting recognizer** using pure geometry rules (32-point normalization, 3x3 density vector): runs offline in under 0.5 ms on CPU, no model needed.
-- **Gemini API + Novita AI** for exercise generation, with auto-switching when the quota runs out.
-- **FSRS** flashcards, and **GitHub Actions** that build installers for Windows, macOS, Linux and Android.
-
-### Monocular Depth Estimation Using CNNs
-
-Published at the SSRC Conference. [Paper](https://ssrc.fit.iuh.edu.vn/conf/article/view/43) · [GitHub](https://github.com/Vinh-Gogo/depth-estimation) · [Report](https://glory-hinody.pages.dev/posts/depth-estimation-cnn-ssrc/)
-
-- Hybrid **U-Net with ResNet-DenseNet** encoder (7.51M parameters) trained on the **LineMOD** RGB-D dataset.
-- **0.037 RMSE** on 1,200 test images (U-Net 0.038, CAE 0.041), and 3D **Point Clouds** rebuilt from the predicted depth maps.
-
-### Also exploring
-
-Generative AI and Vision: Diffusion Transformers, LoRA, int8/fp4 quantization, RIFE frame interpolation, ComfyUI, and serving LLMs with vLLM.
 
 ## GitHub Stats
 
@@ -114,6 +62,5 @@ Generative AI and Vision: Diffusion Transformers, LoRA, int8/fp4 quantization, R
 
 ## Contact
 
-<a href="mailto:lea26462@gmail.com"><img src="https://img.shields.io/badge/Email-contact%20me-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Email"></a>
-<a href="https://www.linkedin.com/in/quangvinh2302"><img src="https://img.shields.io/badge/LinkedIn-connect-3f2b96?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0c29" alt="LinkedIn"></a>
+<a href="mailto:lea26462@gmail.com"><img src="https://img.shields.io/badge/Gmail-lea26462%40gmail.com-3f2b96?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0c29" alt="Gmail"></a>
 <a href="https://gloryvocab.com"><img src="https://img.shields.io/badge/Website-gloryvocab.com-3f2b96?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f0c29" alt="Website"></a>
