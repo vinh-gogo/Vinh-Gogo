@@ -11,7 +11,7 @@
 
 I am an AI engineer. I build LLM and Multi-Agent systems.
 
-In my free time, I run a TOEIC practice website for the TikTok channel **@wbk.lqv** [tiktok](https://www.tiktok.com/@wbk.lqv)**: [gloryvocab.com](https://gloryvocab.com).
+In my free time, I run a TOEIC practice website for the TikTok channel **@wbk.lqv**: [gloryvocab.com](https://gloryvocab.com).
 
 ## Tech Stack
 
