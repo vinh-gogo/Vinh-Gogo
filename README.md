@@ -9,9 +9,7 @@
 
 ## Hello
 
-I am an AI engineer. I build LLM and Multi-Agent systems, from the first idea to a working demo in front of clients.
-
-My latest project is an Agentic real estate advisor system built with LangGraph. I showed it to the client in a live demo, and we signed a contract with UNITE to deploy it. ([Demo video](https://youtu.be/fmhQLR4_IHE) · [Report](https://glory-hinody.pages.dev/posts/multi-agent-workflow-langraph/))
+I am an AI engineer. I build LLM and Multi-Agent systems.
 
 In my free time, I run a TOEIC practice website for the TikTok channel **@glory01**: [gloryvocab.com](https://gloryvocab.com).
 
