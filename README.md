@@ -13,6 +13,9 @@ I am an AI engineer. I build LLM and Multi-Agent systems.
 
 In my free time, I run a TOEIC practice website for the TikTok channel **@wbk.lqv**: [gloryvocab.com](https://gloryvocab.com).
 
+- 📚 **[Glory Vocab](https://gloryvocab.com/)** ([English](https://gloryvocab.com/en/) · [日本語](https://gloryvocab.com/ja/)) — Free, offline-first platform for **6,000 TOEIC & workplace English words**, business collocations, 571 synonym sets, and **[FSRS v5 spaced-repetition flashcards](https://gloryvocab.com/en/review/)**.
+- 🛠️ **[Free Interactive TOEIC Tools](https://gloryvocab.com/en/guides/)** — Word Family Analyzer, Preposition Finder, 75-Min Reading Pacer & FSRS v5 Forgetting-Curve Simulator.
+
 ## Tech Stack
 
 <!-- Icons come from Simple Icons (https://simpleicons.org). Plain icons, no background. Format: https://cdn.simpleicons.org/<slug>/<optional hex color> -->
