@@ -54,12 +54,14 @@ In my free time, I run a TOEIC practice website for the TikTok channel **@wbk.lq
 
 ## GitHub Stats
 
-<div align="center">
+<h3 align="center">Most Used Languages</h3>
 
-<!-- hide=jupyter%20notebook: removes .ipynb files (used only for research) from the language stats -->
-<img height="170" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6">
-
-</div>
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&langs_count=6&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6"
+    alt="Most Used Languages"
+  />
+</p>
 
 ## Contact
 
