@@ -58,7 +58,7 @@ In my free time, I run a TOEIC practice website for the TikTok channel **@wbk.lq
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&langs_count=6&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&langs_count=6&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6"
     alt="Most Used Languages"
   />
 </p>
