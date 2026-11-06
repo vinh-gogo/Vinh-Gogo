@@ -11,55 +11,7 @@
 
 I am an AI engineer. I build LLM and Multi-Agent systems.
 
-In my free time, I run a TOEIC practice website for the TikTok channel **@wbk.lqv**: [gloryvocab.com](https://gloryvocab.com).
-
-- 📚 **[Glory Vocab](https://gloryvocab.com/)** ([English](https://gloryvocab.com/en/) · [日本語](https://gloryvocab.com/ja/)) — Free, offline-first platform for **6,000 TOEIC & workplace English words**, business collocations, 571 synonym sets, and **[FSRS v5 spaced-repetition flashcards](https://gloryvocab.com/en/review/)**.
-- 🛠️ **[Free Interactive TOEIC Tools](https://gloryvocab.com/en/guides/)** — Word Family Analyzer, Preposition Finder, 75-Min Reading Pacer & FSRS v5 Forgetting-Curve Simulator.
-
-## Tech Stack
-
-<!-- Icons come from Simple Icons (https://simpleicons.org). Plain icons, no background. Format: https://cdn.simpleicons.org/<slug>/<optional hex color> -->
-<!-- point-cloud.svg is a custom icon stored in this repo (Simple Icons has no Point Cloud logo) -->
-
-<div align="center">
-
-<img src="https://cdn.simpleicons.org/python" height="38" alt="Python">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/pytorch" height="38" alt="PyTorch">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/tensorflow" height="38" alt="TensorFlow">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/huggingface" height="38" alt="Hugging Face">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/langchain/8b949e" height="38" alt="LangChain and LangGraph">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/neo4j" height="38" alt="Neo4j">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/googlegemini" height="38" alt="Gemini API">&nbsp;&nbsp;
-<img src="point-cloud.svg" height="38" alt="Point Cloud">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/fastapi" height="38" alt="FastAPI">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/postgresql" height="38" alt="PostgreSQL">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/docker" height="38" alt="Docker">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/githubactions" height="38" alt="GitHub Actions">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/linux" height="38" alt="Linux">
-<br><br>
-<img src="https://cdn.simpleicons.org/git" height="38" alt="Git">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/googlecloud" height="38" alt="Google Cloud Platform">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/hugo" height="38" alt="Hugo">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/cloudflare" height="38" alt="Cloudflare Pages, Functions and D1">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/googlesearchconsole" height="38" alt="Google Search Console">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/javascript" height="38" alt="JavaScript">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/nextdotjs/8b949e" height="38" alt="Next.js">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/sqlite/0f80cc" height="38" alt="SQLite and IndexedDB">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/kotlin" height="38" alt="Kotlin Multiplatform">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/jetpackcompose" height="38" alt="Compose Multiplatform">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/android" height="38" alt="Android">&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/latex" height="38" alt="LaTeX">
-
-</div>
-
-## GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=vinh-gogo&layout=compact&langs_count=12&hide=jupyter%20notebook&hide_border=true&bg_color=0f0c29&title_color=a8c0ff&text_color=d1c5e6"
-    alt="Languages"
-  />
-</p>
+In my free time, I run a TOEIC practice website for the TikTok channel **@glory.vocabulary**: [gloryvocab.com](https://gloryvocab.com).
 
 ## Contact
 
