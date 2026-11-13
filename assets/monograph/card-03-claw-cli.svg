@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="312" viewBox="0 0 590 312" fill="none" role="img" aria-labelledby="tC03 dC03">
+  <title id="tC03">Claw-CLI — Vietnamese Voice Terminal &amp; 4-Tier Sandbox</title>
+  <desc id="dC03">Low-latency Vietnamese voice-driven terminal assistant powered by local Silero VAD v5 ONNX. Gates every shell execution through a strict, auditable 4-tier command safety sandbox.</desc>
+  <defs>
+    <linearGradient id="bgAbyss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030816"/>
+      <stop offset="48%" stop-color="#07142E"/>
+      <stop offset="100%" stop-color="#040B1A"/>
+    </linearGradient>
+    <radialGradient id="glowSapphire" cx="78%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#0B1D42" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGoldAmbient" cx="18%" cy="16%" r="50%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.11"/>
+      <stop offset="55%" stop-color="#B4861E" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1D40"/>
+      <stop offset="100%" stop-color="#061024"/>
+    </linearGradient>
+    <linearGradient id="cardSurfaceSubtle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091836"/>
+      <stop offset="100%" stop-color="#050D1F"/>
+    </linearGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="32%" stop-color="#FDE68A"/>
+      <stop offset="68%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A6F18"/>
+    </linearGradient>
+    <linearGradient id="goldHoriz" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9A6F18"/>
+      <stop offset="50%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#9A6F18"/>
+    </linearGradient>
+    <linearGradient id="goldFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="bpGrid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 V 64 M 32 0 V 64 M 48 0 V 64 M 0 16 H 64 M 0 32 H 64 M 0 48 H 64" fill="none" stroke="#3B82F6" stroke-opacity="0.028" stroke-width="1"/>
+      <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
+      <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', monospace; }
+    .pulse-calm { animation: pulseCalm 3.4s ease-in-out infinite; }
+    .spin-cw { transform-box: fill-box; transform-origin: center; animation: spinCW 56s linear infinite; }
+    .spin-ccw { transform-box: fill-box; transform-origin: center; animation: spinCCW 42s linear infinite; }
+    @keyframes pulseCalm { 0%, 100% { opacity: 0.42; } 50% { opacity: 1; } }
+    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+  <clipPath id="clipCard03">
+    <rect x="0" y="0" width="590" height="312" rx="18"/>
+  </clipPath>
+  <g clip-path="url(#clipCard03)">
+    <rect x="0" y="0" width="590" height="312" rx="18" fill="url(#bgAbyss)"/>
+    <rect x="0" y="0" width="590" height="312" fill="url(#glowSapphire)"/>
+    <rect x="0" y="0" width="590" height="312" fill="url(#glowGoldAmbient)"/>
+    <rect x="0" y="0" width="590" height="312" fill="url(#bpGrid)"/>
+    <!-- Top Monograph Header -->
+    <text x="28" y="40" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.6" fill="#FBBF24">MONOGRAPH 03 // VOICE TERMINAL</text>
+    <rect x="410" y="22" width="154" height="26" rx="13" fill="#091A3C" stroke="#2563EB" stroke-width="1.1"/>
+    <text x="487" y="39" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="0.8" fill="#93C5FD">READ MONOGRAPH ↗</text>
+    <line x1="28" y1="56" x2="562" y2="56" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="1"/>
+
+    <!-- Left Content -->
+    <g>
+      <text x="28" y="92" class="sans" font-size="25" font-weight="800" letter-spacing="-0.4" fill="#F8FAFC">Claw-CLI</text>
+      <text x="28" y="117" class="serif" font-size="14.5" font-style="italic" fill="#FDE68A">Vietnamese Voice Terminal &amp; 4-Tier Sandbox</text>
+      <text x="28" y="146" class="sans" font-size="13.2" fill="#CBD5E1">Low-latency Vietnamese voice-driven terminal</text>
+      <text x="28" y="167" class="sans" font-size="13.2" fill="#CBD5E1">assistant powered by local Silero VAD v5 ONNX.</text>
+      <text x="28" y="188" class="sans" font-size="13.2" fill="#CBD5E1">Gates every shell execution through a strict,</text>
+      <text x="28" y="209" class="sans" font-size="13.2" fill="#CBD5E1">auditable 4-tier command safety sandbox.</text>
+    </g>
+
+    <!-- Right Blueprint Schematic Box -->
+    <g>
+      <rect x="404" y="72" width="158" height="164" rx="12" fill="#050D1F" stroke="#1E3A8A" stroke-width="1.1"/>
+      
+      <text x="483" y="92" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#93C5FD">4-TIER SANDBOX</text>
+      <circle cx="483" cy="146" r="42" fill="none" stroke="#1E3A8A" stroke-width="1.2"/>
+      <circle cx="483" cy="146" r="31" fill="none" stroke="#3B82F6" stroke-dasharray="5 3" stroke-width="1.2"/>
+      <circle cx="483" cy="146" r="20" fill="none" stroke="#D4AF37" stroke-width="1.3"/>
+      <circle cx="483" cy="146" r="8" fill="#FBBF24" class="pulse-calm"/>
+      <rect x="422" y="198" width="122" height="24" rx="5" fill="#0B1E44" stroke="#60A5FA" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="483" y="214" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#FEF3C7">VAD v5 • ONNX</text>
+    
+    </g>
+
+    <!-- Bottom Tech Chips -->
+    <line x1="28" y1="244" x2="562" y2="244" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+    <g>
+      <rect x="28" y="256" width="118" height="26" rx="6" fill="#081736" stroke="#1E3A8A" stroke-width="1"/>
+      <text x="87" y="273" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#FDE68A">Silero VAD v5</text>
+      <rect x="154" y="256" width="111" height="26" rx="6" fill="#081736" stroke="#1E3A8A" stroke-width="1"/>
+      <text x="210" y="273" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#FDE68A">ONNX Runtime</text>
+      <rect x="273" y="256" width="126" height="26" rx="6" fill="#081736" stroke="#1E3A8A" stroke-width="1"/>
+      <text x="336" y="273" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#FDE68A">Vietnamese ASR</text>
+      <rect x="407" y="256" width="126" height="26" rx="6" fill="#081736" stroke="#1E3A8A" stroke-width="1"/>
+      <text x="469" y="273" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#FDE68A">4-Tier Sandbox</text>
+    </g>
+    <rect x="8" y="8" width="574" height="296" rx="13" fill="none" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+    <g stroke="url(#goldFoil)" stroke-width="1.6" fill="none" opacity="0.88">
+      <path d="M 14 36 V 14 H 36"/>
+      <path d="M 554 14 H 576 V 36"/>
+      <path d="M 14 276 V 298 H 36"/>
+      <path d="M 554 298 H 576 V 276"/>
+    </g>
+    <rect x="0.75" y="0.75" width="588.5" height="310.5" rx="18" fill="none" stroke="url(#borderFrame)" stroke-width="1.5"/>
+  </g>
+</svg>

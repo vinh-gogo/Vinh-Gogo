@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="556" viewBox="0 0 1200 556" fill="none" role="img" aria-labelledby="tBento dBento">
+  <title id="tBento">Core AI R&amp;D Architecture Bento — Lê Quang Vinh</title>
+  <desc id="dBento">Four-pillar architectural Bento grid covering Generative AI &amp; Video Diffusion, Hybrid GraphRAG, Deterministic Saga Agents, and On-Device Offline-First Edge Systems.</desc>
+  <defs>
+    <linearGradient id="bgAbyss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030816"/>
+      <stop offset="48%" stop-color="#07142E"/>
+      <stop offset="100%" stop-color="#040B1A"/>
+    </linearGradient>
+    <radialGradient id="glowSapphire" cx="78%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#0B1D42" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGoldAmbient" cx="18%" cy="16%" r="50%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.11"/>
+      <stop offset="55%" stop-color="#B4861E" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1D40"/>
+      <stop offset="100%" stop-color="#061024"/>
+    </linearGradient>
+    <linearGradient id="cardSurfaceSubtle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091836"/>
+      <stop offset="100%" stop-color="#050D1F"/>
+    </linearGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="32%" stop-color="#FDE68A"/>
+      <stop offset="68%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A6F18"/>
+    </linearGradient>
+    <linearGradient id="goldHoriz" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9A6F18"/>
+      <stop offset="50%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#9A6F18"/>
+    </linearGradient>
+    <linearGradient id="goldFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="bpGrid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 V 64 M 32 0 V 64 M 48 0 V 64 M 0 16 H 64 M 0 32 H 64 M 0 48 H 64" fill="none" stroke="#3B82F6" stroke-opacity="0.028" stroke-width="1"/>
+      <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
+      <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', monospace; }
+    .pulse-calm { animation: pulseCalm 3.4s ease-in-out infinite; }
+    .spin-cw { transform-box: fill-box; transform-origin: center; animation: spinCW 56s linear infinite; }
+    .spin-ccw { transform-box: fill-box; transform-origin: center; animation: spinCCW 42s linear infinite; }
+    @keyframes pulseCalm { 0%, 100% { opacity: 0.42; } 50% { opacity: 1; } }
+    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    
+    .dag-packet { animation: dagTravel 7s ease-in-out infinite; }
+    .vad-1 { animation: vadPulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .vad-2 { animation: vadPulse 1.6s ease-in-out 0.3s infinite; transform-box: fill-box; transform-origin: center; }
+    .vad-3 { animation: vadPulse 1.6s ease-in-out 0.6s infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes dagTravel { 0% { transform: translateX(0px); opacity: 0.2; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(520px); opacity: 0.2; } }
+    @keyframes vadPulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+  <clipPath id="bentoClip">
+    <rect x="0" y="0" width="1200" height="556" rx="20"/>
+  </clipPath>
+  <g clip-path="url(#bentoClip)">
+    <rect x="0" y="0" width="1200" height="556" rx="20" fill="url(#bgAbyss)"/>
+    <rect x="0" y="0" width="1200" height="556" fill="url(#glowSapphire)"/>
+    <rect x="0" y="0" width="1200" height="556" fill="url(#glowGoldAmbient)"/>
+    <rect x="0" y="0" width="1200" height="556" fill="url(#bpGrid)"/>
+    <!-- Section Header -->
+    <g>
+      <text x="36" y="44" class="mono" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#FBBF24">02 // CORE RESEARCH &amp; SYSTEM ARCHITECTURE</text>
+      <line x1="430" y1="39" x2="918" y2="39" stroke="#1E3A8A" stroke-opacity="0.65" stroke-width="1"/>
+      <text x="1164" y="44" text-anchor="end" class="mono" font-size="11" letter-spacing="1.4" fill="#94A3B8">SPECIFICATION // 4 DETERMINISTIC PILLARS</text>
+    </g>
+
+    <!-- TILE 01: Generative AI & Video Diffusion -->
+    <g>
+      <rect x="32" y="74" width="684" height="214" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
+      <line x1="48" y1="75" x2="700" y2="75" stroke="url(#goldFade)" stroke-width="1.2"/>
+      <text x="694" y="132" text-anchor="end" class="serif" font-size="48" font-weight="700" fill="#D4AF37" opacity="0.13">01</text>
+      <text x="56" y="104" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#FBBF24">01 // MULTIMODAL SYNTHESIS</text>
+      <text x="56" y="132" class="sans" font-size="20.5" font-weight="700" fill="#F8FAFC">Generative AI &amp; Video Diffusion</text>
+      <text x="56" y="156" class="sans" font-size="13" fill="#CBD5E1">Reproducible 6-stage synthesis backed by cryptographic content-addressed caching.</text>
+      <line x1="56" y1="172" x2="692" y2="172" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="1"/>
+    </g>
+    <g>
+      <line x1="144" y1="224" x2="162" y2="224" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="1.5"/>
+      <rect x="56" y="204" width="88" height="40" rx="7" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="100" y="228" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E2E8F0">01 SCRIPT</text>
+      <line x1="250" y1="224" x2="268" y2="224" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="1.5"/>
+      <rect x="162" y="204" width="88" height="40" rx="7" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="206" y="228" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E2E8F0">02 SCENE</text>
+      <line x1="356" y1="224" x2="374" y2="224" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="1.5"/>
+      <rect x="268" y="204" width="88" height="40" rx="7" fill="#102654" stroke="#FBBF24" stroke-width="1.2"/>
+      <text x="312" y="228" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#FEF3C7">03 DIFFUSE</text>
+      <line x1="462" y1="224" x2="480" y2="224" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="1.5"/>
+      <rect x="374" y="204" width="88" height="40" rx="7" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="418" y="228" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E2E8F0">04 MOTION</text>
+      <line x1="568" y1="224" x2="586" y2="224" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="1.5"/>
+      <rect x="480" y="204" width="88" height="40" rx="7" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="524" y="228" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E2E8F0">05 AUDIO</text>
+      <rect x="586" y="204" width="88" height="40" rx="7" fill="#102654" stroke="#FBBF24" stroke-width="1.2"/>
+      <text x="630" y="228" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#FEF3C7">06 MUX</text>
+      <circle cx="100" cy="224" r="4.5" fill="#FEF3C7" filter="url(#softGlow)" class="dag-packet"/>
+      <text x="56" y="268" class="mono" font-size="10.5" fill="#94A3B8">MERKLE ARTIFACT CACHE: SHA-256 VERIFIED  •  ZERO REDUNDANT INFERENCE</text>
+    </g>
+
+    <!-- TILE 02: Hybrid GraphRAG -->
+    <g>
+      <rect x="734" y="74" width="434" height="214" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
+      <line x1="750" y1="75" x2="1152" y2="75" stroke="url(#goldFade)" stroke-width="1.2"/>
+      <text x="1146" y="132" text-anchor="end" class="serif" font-size="48" font-weight="700" fill="#D4AF37" opacity="0.13">02</text>
+      <text x="758" y="104" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#FBBF24">02 // GROUNDED RETRIEVAL</text>
+      <text x="758" y="132" class="sans" font-size="20.5" font-weight="700" fill="#F8FAFC">Hybrid GraphRAG</text>
+      <text x="758" y="156" class="sans" font-size="13" fill="#CBD5E1">Knowledge graphs fused with dense vector retrieval.</text>
+      <line x1="758" y1="172" x2="1144" y2="172" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="1"/>
+    </g>
+    <g>
+      <!-- Left Knowledge Graph Triad -->
+      <rect x="758" y="190" width="132" height="74" rx="8" fill="#061229" stroke="#1E3A8A" stroke-width="1"/>
+      <line x1="790" y1="214" x2="856" y2="210" stroke="#FBBF24" stroke-width="1.2"/>
+      <line x1="790" y1="214" x2="824" y2="244" stroke="#60A5FA" stroke-width="1.2"/>
+      <line x1="856" y1="210" x2="824" y2="244" stroke="#FBBF24" stroke-width="1.2"/>
+      <circle cx="790" cy="214" r="5" fill="#FBBF24"/>
+      <circle cx="856" cy="210" r="5" fill="#60A5FA"/>
+      <circle cx="824" cy="244" r="5" fill="#FEF3C7"/>
+      <text x="824" y="259" text-anchor="middle" class="mono" font-size="9" fill="#94A3B8">KG TOPOLOGY</text>
+
+      <!-- Fusion Arrow -->
+      <line x1="896" y1="227" x2="928" y2="227" stroke="#FBBF24" stroke-width="1.5"/>
+      <polygon points="928,223 936,227 928,231" fill="#FBBF24"/>
+
+      <!-- Ranked Grounded Context Core -->
+      <rect x="942" y="196" width="202" height="62" rx="8" fill="#0E234E" stroke="url(#goldFoil)" stroke-width="1.2"/>
+      <text x="1043" y="222" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#FEF3C7">HYBRID FUSION RANKER</text>
+      <text x="1043" y="242" text-anchor="middle" class="mono" font-size="10" fill="#93C5FD">Graph Hops + Cosine Top-K</text>
+    </g>
+
+    <!-- TILE 03: Deterministic Saga Agents -->
+    <g>
+      <rect x="32" y="306" width="434" height="214" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
+      <line x1="48" y1="307" x2="450" y2="307" stroke="url(#goldFade)" stroke-width="1.2"/>
+      <text x="444" y="364" text-anchor="end" class="serif" font-size="48" font-weight="700" fill="#D4AF37" opacity="0.13">03</text>
+      <text x="56" y="336" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#FBBF24">03 // AUTONOMOUS RELIABILITY</text>
+      <text x="56" y="364" class="sans" font-size="20.5" font-weight="700" fill="#F8FAFC">Deterministic Saga Agents</text>
+      <text x="56" y="388" class="sans" font-size="13" fill="#CBD5E1">Go state machines, Saga rollbacks &amp; safe sandboxes.</text>
+      <line x1="56" y1="404" x2="442" y2="404" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="1"/>
+    </g>
+    <g>
+      <rect x="56" y="424" width="82" height="36" rx="6" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="97" y="446" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E2E8F0">PLAN</text>
+      <line x1="138" y1="442" x2="156" y2="442" stroke="#60A5FA" stroke-width="1.4"/>
+
+      <rect x="156" y="424" width="86" height="36" rx="6" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="199" y="446" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#E2E8F0">EXECUTE</text>
+      <line x1="242" y1="442" x2="260" y2="442" stroke="#60A5FA" stroke-width="1.4"/>
+
+      <rect x="260" y="424" width="84" height="36" rx="6" fill="#102654" stroke="#FBBF24" stroke-width="1.2"/>
+      <text x="302" y="446" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#FEF3C7">VERIFY</text>
+      <line x1="344" y1="442" x2="360" y2="442" stroke="#FBBF24" stroke-width="1.4"/>
+
+      <rect x="360" y="424" width="82" height="36" rx="6" fill="#0D224B" stroke="url(#goldFoil)" stroke-width="1.2"/>
+      <text x="401" y="446" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#FEF3C7">COMMIT</text>
+
+      <!-- Compensating Rollback Path -->
+      <path d="M 302 460 V 484 H 97 V 460" fill="none" stroke="#D4AF37" stroke-dasharray="5 4" stroke-width="1.2"/>
+      <text x="200" y="500" text-anchor="middle" class="mono" font-size="9.5" fill="#FDE68A">SAGA COMPENSATING ROLLBACK  •  4-TIER SANDBOX</text>
+    </g>
+
+    <!-- TILE 04: On-Device AI & Offline-First Edge -->
+    <g>
+      <rect x="484" y="306" width="684" height="214" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
+      <line x1="500" y1="307" x2="1152" y2="307" stroke="url(#goldFade)" stroke-width="1.2"/>
+      <text x="1146" y="364" text-anchor="end" class="serif" font-size="48" font-weight="700" fill="#D4AF37" opacity="0.13">04</text>
+      <text x="508" y="336" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#FBBF24">04 // EDGE &amp; LOCAL INFERENCE</text>
+      <text x="508" y="364" class="sans" font-size="20.5" font-weight="700" fill="#F8FAFC">On-Device AI &amp; Offline-First Edge Systems</text>
+      <text x="508" y="388" class="sans" font-size="13" fill="#CBD5E1">Sub-50ms local ONNX speech inference paired with static &amp; edge-SQLite synchronization.</text>
+      <line x1="508" y1="404" x2="1144" y2="404" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="1"/>
+    </g>
+    <g>
+      <!-- Left: Silero VAD v5 Acoustic Spectrum -->
+      <rect x="508" y="418" width="152" height="76" rx="8" fill="#061229" stroke="#1E3A8A" stroke-width="1"/>
+      <rect x="524" y="225" width="6" height="14" rx="3" fill="#60A5FA" class="vad-1"/>
+      <rect x="536" y="219" width="6" height="26" rx="3" fill="#60A5FA" class="vad-2"/>
+      <rect x="548" y="212" width="6" height="40" rx="3" fill="#FBBF24" class="vad-3"/>
+      <rect x="560" y="221" width="6" height="22" rx="3" fill="#60A5FA" class="vad-1"/>
+      <rect x="572" y="209" width="6" height="46" rx="3" fill="#FBBF24" class="vad-2"/>
+      <rect x="584" y="215" width="6" height="34" rx="3" fill="#FBBF24" class="vad-3"/>
+      <rect x="596" y="223" width="6" height="18" rx="3" fill="#60A5FA" class="vad-1"/>
+      <rect x="608" y="213" width="6" height="38" rx="3" fill="#FBBF24" class="vad-2"/>
+      <rect x="620" y="220" width="6" height="24" rx="3" fill="#60A5FA" class="vad-3"/>
+      <rect x="632" y="225" width="6" height="14" rx="3" fill="#60A5FA" class="vad-1"/>
+      <text x="584" y="484" text-anchor="middle" class="mono" font-size="9.5" fill="#93C5FD">SILERO VAD v5 ONNX</text>
+
+      <!-- Right: Hugo -> FSRS v5 -> Cloudflare D1 Sync -->
+      <rect x="680" y="426" width="136" height="58" rx="8" fill="#07142E" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="748" y="451" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#F8FAFC">HUGO STATIC</text>
+      <text x="748" y="469" text-anchor="middle" class="mono" font-size="9.5" fill="#94A3B8">8,400 Pages</text>
+
+      <line x1="816" y1="455" x2="840" y2="455" stroke="#FBBF24" stroke-width="1.5"/>
+
+      <rect x="840" y="426" width="136" height="58" rx="8" fill="#102654" stroke="#FBBF24" stroke-width="1.2"/>
+      <text x="908" y="451" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#FEF3C7">FSRS v5</text>
+      <text x="908" y="469" text-anchor="middle" class="mono" font-size="9.5" fill="#FDE68A">Offline Scheduler</text>
+
+      <line x1="976" y1="455" x2="1000" y2="455" stroke="#FBBF24" stroke-width="1.5"/>
+
+      <rect x="1000" y="426" width="144" height="58" rx="8" fill="#0D224B" stroke="url(#goldFoil)" stroke-width="1.2"/>
+      <text x="1072" y="451" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#FEF3C7">CLOUDFLARE D1</text>
+      <text x="1072" y="469" text-anchor="middle" class="mono" font-size="9.5" fill="#93C5FD">Edge SQLite Sync</text>
+    </g>
+    <rect x="8" y="8" width="1184" height="540" rx="15" fill="none" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+    <g stroke="url(#goldFoil)" stroke-width="1.6" fill="none" opacity="0.88">
+      <path d="M 14 36 V 14 H 36"/>
+      <path d="M 1164 14 H 1186 V 36"/>
+      <path d="M 14 520 V 542 H 36"/>
+      <path d="M 1164 542 H 1186 V 520"/>
+    </g>
+    <rect x="0.75" y="0.75" width="1198.5" height="554.5" rx="20" fill="none" stroke="url(#borderFrame)" stroke-width="1.5"/>
+  </g>
+</svg>

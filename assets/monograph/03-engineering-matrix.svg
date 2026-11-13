@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="412" viewBox="0 0 1200 412" fill="none" role="img" aria-labelledby="tMat dMat">
+  <title id="tMat">Engineering Doctrine &amp; Production Runtime Matrix — Lê Quang Vinh</title>
+  <desc id="dMat">Architectural principles and four-layer technology runtime matrix across AI inference, Go/Python systems, and Cloudflare Edge.</desc>
+  <defs>
+    <linearGradient id="bgAbyss" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030816"/>
+      <stop offset="48%" stop-color="#07142E"/>
+      <stop offset="100%" stop-color="#040B1A"/>
+    </linearGradient>
+    <radialGradient id="glowSapphire" cx="78%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#0B1D42" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGoldAmbient" cx="18%" cy="16%" r="50%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.11"/>
+      <stop offset="55%" stop-color="#B4861E" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1D40"/>
+      <stop offset="100%" stop-color="#061024"/>
+    </linearGradient>
+    <linearGradient id="cardSurfaceSubtle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091836"/>
+      <stop offset="100%" stop-color="#050D1F"/>
+    </linearGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="32%" stop-color="#FDE68A"/>
+      <stop offset="68%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A6F18"/>
+    </linearGradient>
+    <linearGradient id="goldHoriz" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9A6F18"/>
+      <stop offset="50%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#9A6F18"/>
+    </linearGradient>
+    <linearGradient id="goldFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="bpGrid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 V 64 M 32 0 V 64 M 48 0 V 64 M 0 16 H 64 M 0 32 H 64 M 0 48 H 64" fill="none" stroke="#3B82F6" stroke-opacity="0.028" stroke-width="1"/>
+      <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
+      <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', monospace; }
+    .pulse-calm { animation: pulseCalm 3.4s ease-in-out infinite; }
+    .spin-cw { transform-box: fill-box; transform-origin: center; animation: spinCW 56s linear infinite; }
+    .spin-ccw { transform-box: fill-box; transform-origin: center; animation: spinCCW 42s linear infinite; }
+    @keyframes pulseCalm { 0%, 100% { opacity: 0.42; } 50% { opacity: 1; } }
+    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+  <clipPath id="matrixClip">
+    <rect x="0" y="0" width="1200" height="412" rx="20"/>
+  </clipPath>
+  <g clip-path="url(#matrixClip)">
+    <rect x="0" y="0" width="1200" height="412" rx="20" fill="url(#bgAbyss)"/>
+    <rect x="0" y="0" width="1200" height="412" fill="url(#glowSapphire)"/>
+    <rect x="0" y="0" width="1200" height="412" fill="url(#glowGoldAmbient)"/>
+    <rect x="0" y="0" width="1200" height="412" fill="url(#bpGrid)"/>
+    <text x="36" y="44" class="mono" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#FBBF24">04 // ENGINEERING DOCTRINE &amp; PRODUCTION RUNTIME MATRIX</text>
+    <line x1="538" y1="39" x2="940" y2="39" stroke="#1E3A8A" stroke-opacity="0.65" stroke-width="1"/>
+    <text x="1164" y="44" text-anchor="end" class="mono" font-size="11" letter-spacing="1.4" fill="#94A3B8">ACADEMIC RIGOR × PRODUCT DISCIPLINE</text>
+
+    <!-- Left Panel: Doctrine -->
+    <rect x="32" y="68" width="486" height="312" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
+    <text x="56" y="98" class="mono" font-size="11" font-weight="700" letter-spacing="1.8" fill="#93C5FD">ARCHITECTURAL PRINCIPLES</text>
+      <g>
+        <text x="68" y="140" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">I</text>
+        <text x="94" y="133" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Determinism Over Heuristics</text>
+        <text x="94" y="152" class="sans" font-size="12.5" fill="#94A3B8">Explicit Saga state machines &amp; reproducible DAGs.</text>
+      </g>
+      <line x1="56" y1="172" x2="496" y2="172" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+      <g>
+        <text x="68" y="200" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">II</text>
+        <text x="94" y="193" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Content-Addressed Caching</text>
+        <text x="94" y="212" class="sans" font-size="12.5" fill="#94A3B8">Hash-verified stores eliminating redundant compute.</text>
+      </g>
+      <line x1="56" y1="232" x2="496" y2="232" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+      <g>
+        <text x="68" y="260" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">III</text>
+        <text x="94" y="253" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Defense-in-Depth Sandboxing</text>
+        <text x="94" y="272" class="sans" font-size="12.5" fill="#94A3B8">Auditable 4-tier isolation around agent execution.</text>
+      </g>
+      <line x1="56" y1="292" x2="496" y2="292" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+      <g>
+        <text x="68" y="320" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">IV</text>
+        <text x="94" y="313" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Offline-First &amp; Edge Native</text>
+        <text x="94" y="332" class="sans" font-size="12.5" fill="#94A3B8">Static indexing, local ONNX &amp; Cloudflare D1 sync.</text>
+      </g>
+
+    <!-- Right Panel: Runtime Stack -->
+    <rect x="536" y="68" width="632" height="312" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
+    <text x="560" y="98" class="mono" font-size="11" font-weight="700" letter-spacing="1.8" fill="#93C5FD">PRODUCTION RUNTIME STACK</text>
+      <g>
+        <rect x="556" y="122" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
+        <text x="610" y="145" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">AI &amp; MODELS</text>
+      </g>
+      <rect x="674" y="125" width="120" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="734" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Video Diffusion</text>
+      <rect x="801" y="125" width="72" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="837" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">GraphRAG</text>
+      <rect x="880" y="125" width="45" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="903" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">ONNX</text>
+      <rect x="933" y="125" width="86" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="976" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Silero VAD</text>
+      <rect x="1026" y="125" width="66" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="1058" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">FSRS v5</text>
+      <g>
+        <rect x="556" y="184" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
+        <text x="610" y="207" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">LANGUAGES</text>
+      </g>
+      <rect x="674" y="187" width="59" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="703" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Python</text>
+      <rect x="740" y="187" width="93" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="786" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Go (Golang)</text>
+      <rect x="840" y="187" width="86" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="883" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">TypeScript</text>
+      <rect x="933" y="187" width="100" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="982" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">SQL / SQLite</text>
+      <rect x="1039" y="187" width="52" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="1065" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Shell</text>
+      <g>
+        <rect x="556" y="246" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
+        <text x="610" y="269" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">SYSTEMS</text>
+      </g>
+      <rect x="674" y="249" width="106" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="727" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Saga Machines</text>
+      <rect x="787" y="249" width="66" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="820" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">FastAPI</text>
+      <rect x="860" y="249" width="113" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="917" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">4-Tier Sandbox</text>
+      <rect x="980" y="249" width="72" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="1016" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">EPUB 3.3</text>
+      <g>
+        <rect x="556" y="308" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
+        <text x="610" y="331" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">EDGE &amp; OPS</text>
+      </g>
+      <rect x="674" y="311" width="106" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="727" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Cloudflare D1</text>
+      <rect x="787" y="311" width="72" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="824" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">CF Pages</text>
+      <rect x="867" y="311" width="93" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="913" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Hugo Static</text>
+      <rect x="967" y="311" width="59" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="996" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Docker</text>
+      <rect x="1032" y="311" width="59" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="1062" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Git CI</text>
+    <rect x="8" y="8" width="1184" height="396" rx="15" fill="none" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
+    <g stroke="url(#goldFoil)" stroke-width="1.6" fill="none" opacity="0.88">
+      <path d="M 14 36 V 14 H 36"/>
+      <path d="M 1164 14 H 1186 V 36"/>
+      <path d="M 14 376 V 398 H 36"/>
+      <path d="M 1164 398 H 1186 V 376"/>
+    </g>
+    <rect x="0.75" y="0.75" width="1198.5" height="410.5" rx="20" fill="none" stroke="url(#borderFrame)" stroke-width="1.5"/>
+  </g>
+</svg>
