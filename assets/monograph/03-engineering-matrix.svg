@@ -1,175 +1,320 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="412" viewBox="0 0 1200 412" fill="none" role="img" aria-labelledby="tMat dMat">
-  <title id="tMat">Engineering Doctrine &amp; Production Runtime Matrix — Lê Quang Vinh</title>
-  <desc id="dMat">Architectural principles and four-layer technology runtime matrix across AI inference, Go/Python systems, and Cloudflare Edge.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="540" viewBox="0 0 1600 540" role="img" aria-label="Glory Hinody Engineering Doctrine, 16+ Monographs &amp; Technology Arsenal">
+  <title>Glory Hinody Engineering Doctrine &amp; Technology Arsenal</title>
   <defs>
-    <linearGradient id="bgAbyss" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#030816"/>
-      <stop offset="48%" stop-color="#07142E"/>
-      <stop offset="100%" stop-color="#040B1A"/>
-    </linearGradient>
-    <radialGradient id="glowSapphire" cx="78%" cy="38%" r="55%">
-      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.24"/>
-      <stop offset="55%" stop-color="#0B1D42" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowGoldAmbient" cx="18%" cy="16%" r="50%">
-      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.11"/>
-      <stop offset="55%" stop-color="#B4861E" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="cardSurface" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0B1D40"/>
-      <stop offset="100%" stop-color="#061024"/>
-    </linearGradient>
-    <linearGradient id="cardSurfaceSubtle" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#091836"/>
-      <stop offset="100%" stop-color="#050D1F"/>
-    </linearGradient>
-    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFBEB"/>
-      <stop offset="32%" stop-color="#FDE68A"/>
-      <stop offset="68%" stop-color="#D4AF37"/>
-      <stop offset="100%" stop-color="#9A6F18"/>
-    </linearGradient>
-    <linearGradient id="goldHoriz" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#9A6F18"/>
-      <stop offset="50%" stop-color="#FDE68A"/>
-      <stop offset="100%" stop-color="#9A6F18"/>
-    </linearGradient>
-    <linearGradient id="goldFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="borderFrame" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.65"/>
-      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.55"/>
-    </linearGradient>
-    <pattern id="bpGrid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M 16 0 V 64 M 32 0 V 64 M 48 0 V 64 M 0 16 H 64 M 0 32 H 64 M 0 48 H 64" fill="none" stroke="#3B82F6" stroke-opacity="0.028" stroke-width="1"/>
-      <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
-      <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
-    </pattern>
-    <clipPath id="matrixClip">
-      <rect x="0" y="0" width="1200" height="412" rx="20"/>
+    <clipPath id="clipFrame">
+      <rect x="0" y="0" width="1600" height="540" rx="28"/>
     </clipPath>
+    <linearGradient id="bgRoyal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030714"/>
+      <stop offset="42%" stop-color="#081638"/>
+      <stop offset="78%" stop-color="#0D2254"/>
+      <stop offset="100%" stop-color="#040B1D"/>
+    </linearGradient>
+    <radialGradient id="orbSapphire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.44"/>
+      <stop offset="48%" stop-color="#1D4ED8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.32"/>
+      <stop offset="48%" stop-color="#B45309" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="52%" stop-color="#0284C7" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jewelGoldHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jewelBlueHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.95"/>
+      <stop offset="38%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="28%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="84%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="goldBezel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="25%" stop-color="#FBBF24"/>
+      <stop offset="52%" stop-color="#92400E"/>
+      <stop offset="78%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <radialGradient id="goldDisc3D" cx="34%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="26%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="86%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+    <linearGradient id="liquidGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#132C63" stop-opacity="0.82"/>
+      <stop offset="52%" stop-color="#0A193B" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#061029" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="liquidGlassBright" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3F8A" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#091736" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="royalBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.82"/>
+      <stop offset="36%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#1D4ED8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="cardBorderGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.72"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="goldBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldRuleFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cardRuleLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="royalGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 H 0 V 56" fill="none" stroke="#60A5FA" stroke-opacity="0.06" stroke-width="1"/>
+      <circle cx="28" cy="28" r="1" fill="#FDE68A" fill-opacity="0.14"/>
+    </pattern>
+    <filter id="royalGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="doctrineShine" gradientUnits="userSpaceOnUse" x1="395" y1="0" x2="1125" y2="0" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="32%" stop-color="#FEF08A"/>
+      <stop offset="62%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1460 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ribbonSapphire" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0F2557"/>
+    </linearGradient>
+    <linearGradient id="ribbonRoyal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#081433"/>
+    </linearGradient>
+    <linearGradient id="tickerFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="8%" stop-color="#FFFFFF"/>
+      <stop offset="92%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="tickerMask" maskUnits="userSpaceOnUse" x="0" y="438" width="1600" height="84">
+      <rect x="0" y="438" width="1600" height="84" fill="url(#tickerFade)"/>
+    </mask>
+    <g id="arsenalRow">
+      <g transform="translate(0 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#38BDF8"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">PYTHON 3.12</text></g>
+      <g transform="translate(240 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#FEF08A"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">GOLANG SAGA</text></g>
+      <g transform="translate(480 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#60A5FA"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">TYPESCRIPT</text></g>
+      <g transform="translate(720 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#FBBF24"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">VIDEO DIFFUSION</text></g>
+      <g transform="translate(960 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#34D399"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">HYBRID GRAPHRAG</text></g>
+      <g transform="translate(1200 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#FEF08A"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">ONNX RUNTIME</text></g>
+      <g transform="translate(1440 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#38BDF8"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">CLOUDFLARE D1</text></g>
+      <g transform="translate(1680 0)"><rect x="10" y="452" width="216" height="44" rx="22" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/><circle cx="36" cy="474" r="5.5" fill="#FBBF24"/><text class="mono" x="126" y="479" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="1.5" fill="#F8FAFC">HUGO &amp; FSRS V5</text></g>
+    </g>
   </defs>
   <style>
-    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif; }
-    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', monospace; }
-    .pulse-calm { animation: pulseCalm 3.4s ease-in-out infinite; }
-    .spin-cw { transform-box: fill-box; transform-origin: center; animation: spinCW 56s linear infinite; }
-    .spin-ccw { transform-box: fill-box; transform-origin: center; animation: spinCCW 42s linear infinite; }
-    @keyframes pulseCalm { 0%, 100% { opacity: 0.42; } 50% { opacity: 1; } }
-    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    .sans { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .rise-1 { animation: royalRise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both; }
+    .rise-2 { animation: royalRise 0.80s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both; }
+    .rise-3 { animation: royalRise 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.28s both; }
+    .rise-4 { animation: royalRise 0.90s cubic-bezier(0.22, 1, 0.36, 1) 0.40s both; }
+    @keyframes royalRise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
     
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; transition: none !important; }
     }
   </style>
-  <g clip-path="url(#matrixClip)">
-    <rect x="0" y="0" width="1200" height="412" rx="20" fill="url(#bgAbyss)"/>
-    <rect x="0" y="0" width="1200" height="412" fill="url(#glowSapphire)"/>
-    <rect x="0" y="0" width="1200" height="412" fill="url(#glowGoldAmbient)"/>
-    <rect x="0" y="0" width="1200" height="412" fill="url(#bpGrid)"/>
-    <text x="36" y="44" class="mono" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#FBBF24">04 // ENGINEERING DOCTRINE &amp; PRODUCTION RUNTIME MATRIX</text>
-    <line x1="538" y1="39" x2="940" y2="39" stroke="#1E3A8A" stroke-opacity="0.65" stroke-width="1"/>
-    <text x="1164" y="44" text-anchor="end" class="mono" font-size="11" letter-spacing="1.4" fill="#94A3B8">ACADEMIC RIGOR × PRODUCT DISCIPLINE</text>
+  <g clip-path="url(#clipFrame)">
+    <rect x="0" y="0" width="1600" height="540" fill="url(#bgRoyal)"/>
+    <rect x="0" y="0" width="1600" height="540" fill="url(#royalGrid)"/>
+    <!-- Ambient Lighting -->
+    <circle cx="230" cy="225" r="360" fill="url(#orbGold)">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1320" cy="230" r="400" fill="url(#orbSapphire)"/>
+    <circle cx="800" cy="480" r="320" fill="url(#orbCyan)"/>
 
-    <!-- Left Panel: Doctrine -->
-    <rect x="32" y="68" width="486" height="312" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
-    <text x="56" y="98" class="mono" font-size="11" font-weight="700" letter-spacing="1.8" fill="#93C5FD">ARCHITECTURAL PRINCIPLES</text>
-      <g>
-        <text x="68" y="140" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">I</text>
-        <text x="94" y="133" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Determinism Over Heuristics</text>
-        <text x="94" y="152" class="sans" font-size="12.5" fill="#94A3B8">Explicit Saga state machines &amp; reproducible DAGs.</text>
-      </g>
-      <line x1="56" y1="172" x2="496" y2="172" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
-      <g>
-        <text x="68" y="200" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">II</text>
-        <text x="94" y="193" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Content-Addressed Caching</text>
-        <text x="94" y="212" class="sans" font-size="12.5" fill="#94A3B8">Hash-verified stores eliminating redundant compute.</text>
-      </g>
-      <line x1="56" y1="232" x2="496" y2="232" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
-      <g>
-        <text x="68" y="260" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">III</text>
-        <text x="94" y="253" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Defense-in-Depth Sandboxing</text>
-        <text x="94" y="272" class="sans" font-size="12.5" fill="#94A3B8">Auditable 4-tier isolation around agent execution.</text>
-      </g>
-      <line x1="56" y1="292" x2="496" y2="292" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
-      <g>
-        <text x="68" y="320" text-anchor="middle" class="serif" font-size="19" font-weight="700" fill="url(#goldFoil)">IV</text>
-        <text x="94" y="313" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">Offline-First &amp; Edge Native</text>
-        <text x="94" y="332" class="sans" font-size="12.5" fill="#94A3B8">Static indexing, local ONNX &amp; Cloudflare D1 sync.</text>
-      </g>
+    <!-- ==================== LEFT: 3D 24K LIQUID-GOLD SOVEREIGN MEDALLION ==================== -->
+    <g transform="translate(208 216)">
+      <!-- Expanding Sovereign Pulse Rings -->
+      <circle r="96" fill="none" stroke="#FBBF24" stroke-width="2" opacity="0">
+        <animate attributeName="r" values="96;154" dur="3.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.65;0" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="96" fill="none" stroke="#38BDF8" stroke-width="2" opacity="0">
+        <animate attributeName="r" values="96;154" dur="3.8s" begin="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0" dur="3.8s" begin="1.9s" repeatCount="indefinite"/>
+      </circle>
 
-    <!-- Right Panel: Runtime Stack -->
-    <rect x="536" y="68" width="632" height="312" rx="14" fill="url(#cardSurface)" stroke="#1E3A8A" stroke-width="1.2"/>
-    <text x="560" y="98" class="mono" font-size="11" font-weight="700" letter-spacing="1.8" fill="#93C5FD">PRODUCTION RUNTIME STACK</text>
+      <!-- Rotating Jeweler's Bezel -->
       <g>
-        <rect x="556" y="122" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
-        <text x="610" y="145" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">AI &amp; MODELS</text>
+        <circle r="124" fill="none" stroke="url(#goldFoil)" stroke-width="2.8" stroke-dasharray="3 11" stroke-linecap="round"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/>
       </g>
-      <rect x="674" y="125" width="120" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="734" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Video Diffusion</text>
-      <rect x="801" y="125" width="72" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="837" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">GraphRAG</text>
-      <rect x="880" y="125" width="45" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="903" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">ONNX</text>
-      <rect x="933" y="125" width="86" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="976" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Silero VAD</text>
-      <rect x="1026" y="125" width="66" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="1058" y="145" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">FSRS v5</text>
+      <!-- Counter-Rotating Orbital Arcs -->
       <g>
-        <rect x="556" y="184" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
-        <text x="610" y="207" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">LANGUAGES</text>
+        <circle r="108" fill="none" stroke="#FEF08A" stroke-width="2.8" stroke-dasharray="110 560" stroke-linecap="round"/>
+        <circle r="108" fill="none" stroke="#38BDF8" stroke-width="2.8" stroke-dasharray="85 585" stroke-dashoffset="-320" stroke-linecap="round"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
       </g>
-      <rect x="674" y="187" width="59" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="703" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Python</text>
-      <rect x="740" y="187" width="93" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="786" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Go (Golang)</text>
-      <rect x="840" y="187" width="86" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="883" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">TypeScript</text>
-      <rect x="933" y="187" width="100" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="982" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">SQL / SQLite</text>
-      <rect x="1039" y="187" width="52" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="1065" y="207" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Shell</text>
+      <!-- Swaying Royal Ribbons -->
       <g>
-        <rect x="556" y="246" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
-        <text x="610" y="269" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">SYSTEMS</text>
+        <polygon points="-52,48 -10,58 -10,164 -31,144 -52,164" fill="url(#ribbonSapphire)" stroke="#60A5FA" stroke-opacity="0.4"/>
+        <polygon points="52,48 10,58 10,164 31,144 52,164" fill="url(#ribbonRoyal)" stroke="#FBBF24" stroke-opacity="0.45"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="4s" repeatCount="indefinite"/>
       </g>
-      <rect x="674" y="249" width="106" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="727" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Saga Machines</text>
-      <rect x="787" y="249" width="66" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="820" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">FastAPI</text>
-      <rect x="860" y="249" width="113" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="917" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">4-Tier Sandbox</text>
-      <rect x="980" y="249" width="72" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="1016" y="269" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">EPUB 3.3</text>
+      <!-- 3D Sculpted 24K Gold Disc -->
+      <circle cy="8" r="80" fill="#01040D" opacity="0.6"/>
+      <circle r="80" fill="url(#goldDisc3D)" filter="url(#royalGlow)"/>
+      <circle r="74" fill="none" stroke="#FFFBEB" stroke-opacity="0.78" stroke-width="2"/>
+      <circle r="60" fill="none" stroke="#78350F" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="3 6"/>
+      <!-- 8-Pointed Imperial Star Emblem -->
       <g>
-        <rect x="556" y="308" width="108" height="38" rx="7" fill="#0D224B" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
-        <text x="610" y="331" text-anchor="middle" class="mono" font-size="10" font-weight="700" letter-spacing="1" fill="#FEF3C7">EDGE &amp; OPS</text>
+        <polygon points="0,-36 9,-10 35,-9 14,5 21,30 0,15 -21,30 -14,5 -35,-9 -9,-10" fill="#FFFDF7" stroke="#92400E" stroke-width="1.8" stroke-linejoin="round"/>
+        <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="2.8s" repeatCount="indefinite"/>
       </g>
-      <rect x="674" y="311" width="106" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="727" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Cloudflare D1</text>
-      <rect x="787" y="311" width="72" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="824" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">CF Pages</text>
-      <rect x="867" y="311" width="93" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="913" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Hugo Static</text>
-      <rect x="967" y="311" width="59" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="996" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Docker</text>
-      <rect x="1032" y="311" width="59" height="32" rx="6" fill="#07142E" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="1062" y="331" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E2E8F0">Git CI</text>
-    <rect x="8" y="8" width="1184" height="396" rx="15" fill="none" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
-    <g stroke="url(#goldFoil)" stroke-width="1.6" fill="none" opacity="0.88">
-      <path d="M 14 36 V 14 H 36"/>
-      <path d="M 1164 14 H 1186 V 36"/>
-      <path d="M 14 376 V 398 H 36"/>
-      <path d="M 1164 398 H 1186 V 376"/>
+      <!-- Specular Glint -->
+      <ellipse cx="-26" cy="-38" rx="26" ry="9" fill="#FFFFFF" opacity="0.38" transform="rotate(-32 -26 -38)">
+        <animate attributeName="opacity" values="0.18;0.52;0.18" dur="3.2s" repeatCount="indefinite"/>
+      </ellipse>
     </g>
-    <rect x="0.75" y="0.75" width="1198.5" height="410.5" rx="20" fill="none" stroke="url(#borderFrame)" stroke-width="1.5"/>
+
+    <!-- ==================== CENTER: RESEARCH & DOCTRINE SHOWCASE ==================== -->
+    <text class="mono" x="395" y="78" font-size="14" font-weight="700" letter-spacing="4.5" fill="#38BDF8">GLORY-HINODY.PAGES.DEV  •  R&amp;D LOGBOOK</text>
+    <text class="sans" x="395" y="148" font-size="54" font-weight="900" letter-spacing="1.8" fill="url(#doctrineShine)">ENGINEERING DOCTRINE</text>
+    <text class="sans" x="395" y="190" font-size="19.5" font-weight="600" letter-spacing="3.2" fill="#FEF08A">VERIFIABLE AI  •  PRODUCTION MONOGRAPHS</text>
+
+    <!-- Animated Gold Laser Divider -->
+    <rect x="395" y="210" width="710" height="3.5" rx="1.75" fill="url(#cardRuleLeft)"/>
+    <circle cx="395" cy="211.7" r="6.5" fill="url(#jewelGoldHalo)">
+      <animate attributeName="cx" values="395;1105" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <text class="sans" x="395" y="248" font-size="17.5" fill="#CBD5E1">Every system is engineered from mathematical invariants down to deterministic failure recovery.</text>
+
+    <!-- 4 Bold Metric Columns -->
+    <g>
+      <text class="sans" x="395" y="328" font-size="42" font-weight="900" fill="#FFFFFF">16+</text>
+      <text class="mono" x="395" y="354" font-size="12" font-weight="700" letter-spacing="2" fill="#FEF08A">MONOGRAPHS</text>
+      <rect x="395" y="366" width="60" height="3.5" rx="1.75" fill="url(#goldFoil)"><animate attributeName="width" values="28;96;28" dur="4s" repeatCount="indefinite"/></rect>
+
+      <text class="sans" x="580" y="328" font-size="42" font-weight="900" fill="#FFFFFF">8,400</text>
+      <text class="mono" x="580" y="354" font-size="12" font-weight="700" letter-spacing="2" fill="#38BDF8">STATIC PAGES</text>
+      <rect x="580" y="366" width="60" height="3.5" rx="1.75" fill="#38BDF8"><animate attributeName="width" values="28;96;28" dur="4s" begin="0.6s" repeatCount="indefinite"/></rect>
+
+      <text class="sans" x="780" y="328" font-size="42" font-weight="900" fill="#FFFFFF">&lt;30ms</text>
+      <text class="mono" x="780" y="354" font-size="12" font-weight="700" letter-spacing="2" fill="#FEF08A">ONNX EDGE VAD</text>
+      <rect x="780" y="366" width="60" height="3.5" rx="1.75" fill="url(#goldFoil)"><animate attributeName="width" values="28;96;28" dur="4s" begin="1.2s" repeatCount="indefinite"/></rect>
+
+      <text class="sans" x="985" y="328" font-size="42" font-weight="900" fill="#FFFFFF">SHA-256</text>
+      <text class="mono" x="985" y="354" font-size="12" font-weight="700" letter-spacing="2" fill="#38BDF8">CAS PIPELINE</text>
+      <rect x="985" y="366" width="60" height="3.5" rx="1.75" fill="#38BDF8"><animate attributeName="width" values="28;96;28" dur="4s" begin="1.8s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- ==================== RIGHT: 3 LEVITATING 3D MONOGRAPH FOLIO CARDS ==================== -->
+    <!-- Back Folio -->
+    <g transform="translate(1310 212) rotate(-10)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="6s" repeatCount="indefinite"/>
+        <rect x="-125" y="-88" width="250" height="176" rx="16" fill="#0B1D4A" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.4"/>
+        <rect x="-95" y="-52" width="120" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.2"/>
+        <rect x="-95" y="-34" width="170" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.12"/>
+      </g>
+    </g>
+    <!-- Middle Folio -->
+    <g transform="translate(1432 192) rotate(8)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 11;0 0" dur="7s" repeatCount="indefinite"/>
+        <rect x="-125" y="-88" width="250" height="176" rx="16" fill="#10275E" stroke="#FBBF24" stroke-opacity="0.45" stroke-width="1.4"/>
+        <rect x="-95" y="-52" width="140" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.22"/>
+        <circle cx="84" cy="54" r="18" fill="url(#goldDisc3D)"/>
+      </g>
+    </g>
+    <!-- Front Hero Monograph Folio -->
+    <g transform="translate(1372 242) rotate(-2)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5.2s" repeatCount="indefinite"/>
+        <rect x="-132" y="-84" width="264" height="184" rx="16" fill="#01040D" opacity="0.65" transform="translate(0 8)"/>
+        <rect x="-132" y="-92" width="264" height="184" rx="16" fill="url(#liquidGlass)" stroke="url(#goldFoil)" stroke-width="1.8"/>
+        <rect x="-112" y="-92" width="224" height="5" rx="2.5" fill="url(#goldFoil)"/>
+        <text class="sans" x="0" y="-48" text-anchor="middle" font-size="20" font-weight="900" letter-spacing="4" fill="#FFFFFF">MONOGRAPH</text>
+        <text class="mono" x="0" y="-26" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="4.5" fill="#FEF08A">GLORY HINODY R&amp;D</text>
+        <rect x="-90" y="-6" width="180" height="5" rx="2.5" fill="#93C5FD" fill-opacity="0.35"/>
+        <rect x="-70" y="10" width="140" height="5" rx="2.5" fill="#93C5FD" fill-opacity="0.25"/>
+        <rect x="-82" y="26" width="164" height="5" rx="2.5" fill="#93C5FD" fill-opacity="0.18"/>
+        <!-- Self-Signing Gold Nib Signature -->
+        <path d="M -100 66 q 10 -20 20 -3 t 20 -2 t 18 -6" fill="none" stroke="#FEF08A" stroke-width="2" stroke-linecap="round" stroke-dasharray="120" stroke-dashoffset="120">
+          <animate attributeName="stroke-dashoffset" values="120;0;0;120" keyTimes="0;0.45;0.85;1" dur="5.6s" repeatCount="indefinite"/>
+        </path>
+        <line x1="-104" y1="74" x2="-24" y2="74" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.2"/>
+        <!-- 24K Gold Wax Seal -->
+        <circle cx="84" cy="54" r="24" fill="url(#goldDisc3D)"/>
+        <circle cx="84" cy="54" r="18" fill="none" stroke="#FFFBEB" stroke-opacity="0.75" stroke-dasharray="2 4"/>
+      </g>
+    </g>
+
+    <!-- ==================== BOTTOM: INFINITE SMOOTH-SCROLLING ARSENAL MARQUEE ==================== -->
+    <rect x="36" y="434" width="1528" height="1.5" fill="url(#goldRuleFade)"/>
+    <g mask="url(#tickerMask)">
+      <g>
+        <use href="#arsenalRow"/>
+        <use href="#arsenalRow" x="1920"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1920 0" dur="28s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <!-- Sweeping liquid-gold & sapphire edge light beams -->
+    <rect x="-420" y="0" width="420" height="3" fill="url(#goldBeam)">
+      <animate attributeName="x" values="-420;1600" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1600" y="537" width="420" height="3" fill="url(#goldBeam)">
+      <animate attributeName="x" values="1600;-420" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Double-bevelled royal luxury frame & machined 24K gold corner lugs -->
+    <rect x="7" y="7" width="1586" height="526" rx="23" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1"/>
+    <rect x="1" y="1" width="1598" height="538" rx="27" fill="none" stroke="url(#royalBorder)" stroke-width="2"/>
+    <g stroke="url(#goldFoil)" stroke-width="2.4" stroke-linecap="round" fill="none" opacity="0.92">
+      <path d="M 10 38 V 30 A 20 20 0 0 1 30 10 H 38"/>
+      <path d="M 1562 10 H 1570 A 20 20 0 0 1 1590 30 V 38"/>
+      <path d="M 10 502 V 510 A 20 20 0 0 0 30 530 H 38"/>
+      <path d="M 1562 530 H 1570 A 20 20 0 0 0 1590 510 V 502"/>
+    </g>
   </g>
 </svg>

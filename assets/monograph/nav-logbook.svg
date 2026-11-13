@@ -1,28 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="178" height="36" viewBox="0 0 244 48" fill="none" role="img" aria-label="TECHNICAL LOGBOOK: glory-hinody ↗">
-  <title>TECHNICAL LOGBOOK — glory-hinody ↗</title>
-  <desc>Navigation link for glory-hinody ↗</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="214" height="52" viewBox="0 0 214 52" role="img" aria-label="LOGBOOK ↗ — GLORY HINODY">
+  <title>LOGBOOK ↗ — GLORY HINODY</title>
   <defs>
-    <linearGradient id="pillBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#102859"/>
-      <stop offset="100%" stop-color="#07142E"/>
+    <clipPath id="clipFrame">
+      <rect x="0" y="0" width="214" height="52" rx="26"/>
+    </clipPath>
+    <linearGradient id="bgRoyal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030714"/>
+      <stop offset="42%" stop-color="#081638"/>
+      <stop offset="78%" stop-color="#0D2254"/>
+      <stop offset="100%" stop-color="#040B1D"/>
     </linearGradient>
+    <radialGradient id="orbSapphire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.44"/>
+      <stop offset="48%" stop-color="#1D4ED8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.32"/>
+      <stop offset="48%" stop-color="#B45309" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="52%" stop-color="#0284C7" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jewelGoldHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jewelBlueHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.95"/>
+      <stop offset="38%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFBEB"/>
-      <stop offset="45%" stop-color="#FBBF24"/>
-      <stop offset="100%" stop-color="#B4861E"/>
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="28%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="84%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
     </linearGradient>
+    <linearGradient id="goldBezel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="25%" stop-color="#FBBF24"/>
+      <stop offset="52%" stop-color="#92400E"/>
+      <stop offset="78%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <radialGradient id="goldDisc3D" cx="34%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="26%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="86%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+    <linearGradient id="liquidGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#132C63" stop-opacity="0.82"/>
+      <stop offset="52%" stop-color="#0A193B" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#061029" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="liquidGlassBright" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3F8A" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#091736" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="royalBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.82"/>
+      <stop offset="36%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#1D4ED8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="cardBorderGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.72"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="goldBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldRuleFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cardRuleLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="royalGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 H 0 V 56" fill="none" stroke="#60A5FA" stroke-opacity="0.06" stroke-width="1"/>
+      <circle cx="28" cy="28" r="1" fill="#FDE68A" fill-opacity="0.14"/>
+    </pattern>
+    <filter id="royalGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   <style>
-    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .sans { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .rise-1 { animation: royalRise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both; }
+    .rise-2 { animation: royalRise 0.80s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both; }
+    .rise-3 { animation: royalRise 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.28s both; }
+    .rise-4 { animation: royalRise 0.90s cubic-bezier(0.22, 1, 0.36, 1) 0.40s both; }
+    @keyframes royalRise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
   </style>
-  <rect x="1" y="1" width="242" height="46" rx="10" fill="url(#pillBg)" stroke="url(#goldFoil)" stroke-width="1.5"/>
-  <rect x="4" y="4" width="236" height="40" rx="7" fill="none" stroke="#D4AF37" stroke-opacity="0.18" stroke-width="1"/>
-  <g transform="translate(14, 14)" stroke="#FBBF24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M2 4h6a3 3 0 0 1 3 3v11a2 2 0 0 0-2-2H2z"/><path d="M20 4h-6a3 3 0 0 0-3 3v11a2 2 0 0 1 2-2h7z"/>
+  <g clip-path="url(#clipFrame)">
+    <rect x="0" y="0" width="214" height="52" rx="26" fill="url(#goldFoil)"/>
+    <rect x="0" y="0" width="214" height="24" rx="12" fill="url(#glassSheen)"/>
+    <circle cx="25" cy="26" r="15.5" fill="#FFFBEB" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="1.2"/>
+    <path d="M 22 19 L 32 29 L 25 33 L 18 26 Z" fill="none" stroke="#040A1C" stroke-width="1.9" stroke-linejoin="round"/><circle cx="24" cy="25" r="1.8" fill="#040A1C"/>
+    <text class="mono" x="49" y="21" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#1E3A8A">LOGBOOK ↗</text>
+    <text class="sans" x="49" y="37" font-size="13.5" font-weight="800" letter-spacing="0.5" fill="#040A1C">GLORY HINODY</text>
+    <rect x="1" y="1" width="212" height="50" rx="25" fill="none" stroke="#FFFBEB" stroke-width="1.6"/>
   </g>
-  <line x1="42" y1="12" x2="42" y2="36" stroke="#1E3A8A" stroke-opacity="0.8" stroke-width="1"/>
-  <text x="52" y="20" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#94A3B8">TECHNICAL LOGBOOK</text>
-  <text x="52" y="35" class="sans" font-size="13" font-weight="700" fill="#FEF3C7">glory-hinody ↗</text>
 </svg>

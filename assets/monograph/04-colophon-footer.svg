@@ -1,100 +1,269 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="196" viewBox="0 0 1200 196" fill="none" role="img" aria-labelledby="tCol dCol">
-  <title id="tCol">Glory Hinody — Technical Logbook &amp; Colophon | Lê Quang Vinh</title>
-  <desc id="dCol">Editorial colophon seal for Lê Quang Vinh (vinh-gogo), open to AI R&amp;D and production engineering collaborations.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="450" viewBox="0 0 1600 450" role="img" aria-label="Glory Hinody Colophon — Lê Quang Vinh (@vinh-gogo)">
+  <title>Glory Hinody Colophon — Lê Quang Vinh (@vinh-gogo)</title>
   <defs>
-    <linearGradient id="bgAbyss" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#030816"/>
-      <stop offset="48%" stop-color="#07142E"/>
-      <stop offset="100%" stop-color="#040B1A"/>
-    </linearGradient>
-    <radialGradient id="glowSapphire" cx="78%" cy="38%" r="55%">
-      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.24"/>
-      <stop offset="55%" stop-color="#0B1D42" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowGoldAmbient" cx="18%" cy="16%" r="50%">
-      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.11"/>
-      <stop offset="55%" stop-color="#B4861E" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="cardSurface" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0B1D40"/>
-      <stop offset="100%" stop-color="#061024"/>
-    </linearGradient>
-    <linearGradient id="cardSurfaceSubtle" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#091836"/>
-      <stop offset="100%" stop-color="#050D1F"/>
-    </linearGradient>
-    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFBEB"/>
-      <stop offset="32%" stop-color="#FDE68A"/>
-      <stop offset="68%" stop-color="#D4AF37"/>
-      <stop offset="100%" stop-color="#9A6F18"/>
-    </linearGradient>
-    <linearGradient id="goldHoriz" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#9A6F18"/>
-      <stop offset="50%" stop-color="#FDE68A"/>
-      <stop offset="100%" stop-color="#9A6F18"/>
-    </linearGradient>
-    <linearGradient id="goldFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="borderFrame" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.65"/>
-      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.55"/>
-    </linearGradient>
-    <pattern id="bpGrid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M 16 0 V 64 M 32 0 V 64 M 48 0 V 64 M 0 16 H 64 M 0 32 H 64 M 0 48 H 64" fill="none" stroke="#3B82F6" stroke-opacity="0.028" stroke-width="1"/>
-      <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
-      <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
-    </pattern>
-    <clipPath id="colophonClip">
-      <rect x="0" y="0" width="1200" height="196" rx="20"/>
+    <clipPath id="clipFrame">
+      <rect x="0" y="0" width="1600" height="450" rx="28"/>
     </clipPath>
+    <linearGradient id="bgRoyal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030714"/>
+      <stop offset="42%" stop-color="#081638"/>
+      <stop offset="78%" stop-color="#0D2254"/>
+      <stop offset="100%" stop-color="#040B1D"/>
+    </linearGradient>
+    <radialGradient id="orbSapphire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.44"/>
+      <stop offset="48%" stop-color="#1D4ED8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.32"/>
+      <stop offset="48%" stop-color="#B45309" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="52%" stop-color="#0284C7" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jewelGoldHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jewelBlueHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.95"/>
+      <stop offset="38%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="28%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="84%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="goldBezel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="25%" stop-color="#FBBF24"/>
+      <stop offset="52%" stop-color="#92400E"/>
+      <stop offset="78%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <radialGradient id="goldDisc3D" cx="34%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="26%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="86%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+    <linearGradient id="liquidGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#132C63" stop-opacity="0.82"/>
+      <stop offset="52%" stop-color="#0A193B" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#061029" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="liquidGlassBright" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3F8A" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#091736" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="royalBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.82"/>
+      <stop offset="36%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#1D4ED8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="cardBorderGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.72"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="goldBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldRuleFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cardRuleLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="royalGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 H 0 V 56" fill="none" stroke="#60A5FA" stroke-opacity="0.06" stroke-width="1"/>
+      <circle cx="28" cy="28" r="1" fill="#FDE68A" fill-opacity="0.14"/>
+    </pattern>
+    <filter id="royalGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="footerGoldShine" gradientUnits="userSpaceOnUse" x1="360" y1="0" x2="1240" y2="0" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="32%" stop-color="#FEF08A"/>
+      <stop offset="65%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1760 0" dur="8.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="waveRoyal1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.58"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.58"/>
+    </linearGradient>
+    <linearGradient id="waveRoyal2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.44"/>
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.44"/>
+    </linearGradient>
+    <linearGradient id="waveGold3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D2254" stop-opacity="0.92"/>
+      <stop offset="35%" stop-color="#D97706" stop-opacity="0.72"/>
+      <stop offset="65%" stop-color="#FBBF24" stop-opacity="0.76"/>
+      <stop offset="100%" stop-color="#0D2254" stop-opacity="0.92"/>
+    </linearGradient>
+    <g id="isoPrism">
+      <polygon points="0,-20 20,-10 0,0 -20,-10" fill="url(#cubeTop)"/>
+      <polygon points="-20,-10 0,0 0,24 -20,14" fill="url(#cubeLeft)"/>
+      <polygon points="20,-10 0,0 0,24 20,14" fill="url(#cubeRight)"/>
+    </g>
+    <path id="silkWave" d="M 0 38 q 100 -28 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V 140 H 0 Z"/>
   </defs>
   <style>
-    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif; }
-    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', monospace; }
-    .pulse-calm { animation: pulseCalm 3.4s ease-in-out infinite; }
-    .spin-cw { transform-box: fill-box; transform-origin: center; animation: spinCW 56s linear infinite; }
-    .spin-ccw { transform-box: fill-box; transform-origin: center; animation: spinCCW 42s linear infinite; }
-    @keyframes pulseCalm { 0%, 100% { opacity: 0.42; } 50% { opacity: 1; } }
-    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    .sans { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .rise-1 { animation: royalRise 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both; }
+    .rise-2 { animation: royalRise 0.80s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both; }
+    .rise-3 { animation: royalRise 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.28s both; }
+    .rise-4 { animation: royalRise 0.90s cubic-bezier(0.22, 1, 0.36, 1) 0.40s both; }
+    @keyframes royalRise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
     
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; transition: none !important; }
     }
   </style>
-  <g clip-path="url(#colophonClip)">
-    <rect x="0" y="0" width="1200" height="196" rx="20" fill="url(#bgAbyss)"/>
-    <rect x="0" y="0" width="1200" height="196" fill="url(#glowSapphire)"/>
-    <rect x="0" y="0" width="1200" height="196" fill="url(#glowGoldAmbient)"/>
-    <rect x="0" y="0" width="1200" height="196" fill="url(#bpGrid)"/>
-    <!-- Symmetrical Gold Rules & Octagonal Monogram Seal -->
-    <rect x="120" y="51.4" width="436" height="1.2" fill="url(#goldFade)"/>
-    <rect x="644" y="51.4" width="436" height="1.2" fill="url(#goldFade)"/>
-    <polygon points="624.0,61.9 609.9,76.0 590.1,76.0 576.0,61.9 576.0,42.1 590.1,28.0 609.9,28.0 624.0,42.1" fill="#081736" stroke="url(#goldFoil)" stroke-width="1.6"/>
-    <text x="600" y="56" text-anchor="middle" class="serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#FEF3C7">LQV</text>
+  <g clip-path="url(#clipFrame)">
+    <rect x="0" y="0" width="1600" height="450" fill="url(#bgRoyal)"/>
+    <rect x="0" y="0" width="1600" height="450" fill="url(#royalGrid)"/>
+    <!-- Volumetric Glows -->
+    <circle cx="800" cy="180" r="440" fill="url(#orbSapphire)"/>
+    <circle cx="800" cy="340" r="380" fill="url(#orbGold)"/>
 
-    <!-- Editorial Signature -->
-    <text x="600" y="106" text-anchor="middle" class="serif" font-size="22" font-style="italic" fill="#FEF3C7">Glory Hinody  —  Technical Logbook &amp; Deterministic AI Archive</text>
-    <text x="600" y="132" text-anchor="middle" class="sans" font-size="13.5" fill="#CBD5E1">Open to AI R&amp;D and Systems Engineering Collaboration  •  Generative AI, Hybrid GraphRAG &amp; On-Device Edge</text>
+    <!-- Levitating 3D Isometric 24K Gold & Sapphire Prisms -->
+    <g transform="translate(64 96)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="5.8s" repeatCount="indefinite"/><use href="#isoPrism" transform="scale(1.35)"/></g></g>
+    <g transform="translate(1536 92)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 14;0 0" dur="6.4s" repeatCount="indefinite"/><use href="#isoPrism" transform="scale(1.3)"/></g></g>
+    <g transform="translate(54 276)" opacity="0.82"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="7.2s" repeatCount="indefinite"/><use href="#isoPrism" transform="scale(1.05)"/></g></g>
+    <g transform="translate(1544 268)" opacity="0.85"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5.4s" repeatCount="indefinite"/><use href="#isoPrism" transform="scale(1.15)"/></g></g>
 
-    <!-- Bottom Colophon Coordinates -->
-    <line x1="220" y1="150" x2="980" y2="150" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="1"/>
-    <text x="600" y="172" text-anchor="middle" class="mono" font-size="10.8" letter-spacing="1.4" fill="#94A3B8">LÊ QUANG VINH (@VINH-GOGO)   ◆   GLORY-HINODY.PAGES.DEV   ◆   GLORYVOCAB.COM   ◆   LEA26462@GMAIL.COM</text>
-    <rect x="8" y="8" width="1184" height="180" rx="15" fill="none" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="1"/>
-    <g stroke="url(#goldFoil)" stroke-width="1.6" fill="none" opacity="0.88">
-      <path d="M 14 36 V 14 H 36"/>
-      <path d="M 1164 14 H 1186 V 36"/>
-      <path d="M 14 160 V 182 H 36"/>
-      <path d="M 1164 182 H 1186 V 160"/>
+    <!-- Twinkling Stardust -->
+    <g fill="#FEF08A">
+      <circle cx="290" cy="34" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="1310" cy="38" r="2.2"><animate attributeName="opacity" values="1;0.2;1" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="180" cy="215" r="1.8"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="1420" cy="220" r="1.8"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.5s" repeatCount="indefinite"/></circle>
     </g>
-    <rect x="0.75" y="0.75" width="1198.5" height="194.5" rx="20" fill="none" stroke="url(#borderFrame)" stroke-width="1.5"/>
+
+    <!-- 3 Luxury Domain Summary Capsules -->
+    <g>
+      <rect x="132" y="46" width="424" height="50" rx="25" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/>
+      <circle cx="164" cy="71" r="5.5" fill="#FEF08A"/>
+      <text class="sans" x="356" y="77" text-anchor="middle" font-size="15.5" font-weight="700" fill="#F8FAFC">Generative AI &amp; Video Diffusion</text>
+
+      <rect x="588" y="46" width="424" height="50" rx="25" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/>
+      <circle cx="620" cy="71" r="5.5" fill="#38BDF8"/>
+      <text class="sans" x="812" y="77" text-anchor="middle" font-size="15.5" font-weight="700" fill="#F8FAFC">Hybrid GraphRAG &amp; Go Saga Agents</text>
+
+      <rect x="1044" y="46" width="424" height="50" rx="25" fill="url(#liquidGlass)" stroke="url(#cardBorderGold)" stroke-width="1.4"/>
+      <circle cx="1076" cy="71" r="5.5" fill="#FEF08A"/>
+      <text class="sans" x="1268" y="77" text-anchor="middle" font-size="15.5" font-weight="700" fill="#F8FAFC">Edge Voice ONNX &amp; Offline-First AI</text>
+    </g>
+
+    <!-- Grand Collaboration Beacon Capsule -->
+    <g>
+      <rect x="210" y="124" width="1180" height="60" rx="30" fill="url(#liquidGlassBright)" stroke="url(#goldFoil)" stroke-width="1.7"/>
+      <circle cx="254" cy="154" r="6" fill="#34D399"/>
+      <circle cx="254" cy="154" r="6" fill="none" stroke="#34D399" stroke-width="2">
+        <animate attributeName="r" values="6;16" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text class="sans" x="816" y="160" text-anchor="middle" font-size="17.5" font-weight="700" fill="#FFFFFF">Open to AI R&amp;D Engineering, Research Collaborations &amp; High-Impact Systems Architecture</text>
+    </g>
+
+    <!-- Animated Gold Flow Rule -->
+    <path d="M 280 212 H 1320" fill="none" stroke="#FBBF24" stroke-opacity="0.48" stroke-width="1.6" stroke-dasharray="8 10">
+      <animate attributeName="stroke-dashoffset" values="0;-36" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Executive Sign-Off & Sculpted Gold Star -->
+    <text class="sans" x="800" y="264" text-anchor="middle" font-size="30" font-weight="900" letter-spacing="1" fill="url(#footerGoldShine)">Thank You for Exploring Glory Hinody — Lê Quang Vinh</text>
+    <text class="mono" x="800" y="302" text-anchor="middle" font-size="14" font-weight="600" letter-spacing="2" fill="#CBD5E1">GLORY-HINODY.PAGES.DEV   •   GLORYVOCAB.COM   •   LEA26462@GMAIL.COM</text>
+
+    <g transform="translate(362 254)">
+      <animateTransform attributeName="transform" type="rotate" values="-14;14;-14" dur="3.4s" repeatCount="indefinite" additive="sum"/>
+      <polygon points="0,-11 3,-3.5 11,-3.2 4.8,1.8 7,9.5 0,5 -7,9.5 -4.8,1.8 -11,-3.2 -3,-3.5" fill="url(#goldFoil)"/>
+    </g>
+    <g transform="translate(1238 254)">
+      <animateTransform attributeName="transform" type="rotate" values="14;-14;14" dur="3.4s" repeatCount="indefinite" additive="sum"/>
+      <polygon points="0,-11 3,-3.5 11,-3.2 4.8,1.8 7,9.5 0,5 -7,9.5 -4.8,1.8 -11,-3.2 -3,-3.5" fill="url(#goldFoil)"/>
+    </g>
+
+    <!-- 3-Layer Flowing Royal Sapphire & 24K Liquid Gold Silk Waves -->
+    <g transform="translate(0 336)">
+      <g>
+        <use href="#silkWave" fill="url(#waveRoyal1)"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1600 0" dur="20s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <use href="#silkWave" fill="url(#waveRoyal2)"/>
+        <animateTransform attributeName="transform" type="translate" from="-1600 14" to="0 14" dur="15s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <use href="#silkWave" fill="url(#waveGold3)"/>
+        <animateTransform attributeName="transform" type="translate" from="0 28" to="-1600 28" dur="11s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <!-- Sweeping liquid-gold & sapphire edge light beams -->
+    <rect x="-420" y="0" width="420" height="3" fill="url(#goldBeam)">
+      <animate attributeName="x" values="-420;1600" dur="8.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1600" y="447" width="420" height="3" fill="url(#goldBeam)">
+      <animate attributeName="x" values="1600;-420" dur="8.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Double-bevelled royal luxury frame & machined 24K gold corner lugs -->
+    <rect x="7" y="7" width="1586" height="436" rx="23" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1"/>
+    <rect x="1" y="1" width="1598" height="448" rx="27" fill="none" stroke="url(#royalBorder)" stroke-width="2"/>
+    <g stroke="url(#goldFoil)" stroke-width="2.4" stroke-linecap="round" fill="none" opacity="0.92">
+      <path d="M 10 38 V 30 A 20 20 0 0 1 30 10 H 38"/>
+      <path d="M 1562 10 H 1570 A 20 20 0 0 1 1590 30 V 38"/>
+      <path d="M 10 412 V 420 A 20 20 0 0 0 30 440 H 38"/>
+      <path d="M 1562 440 H 1570 A 20 20 0 0 0 1590 420 V 412"/>
+    </g>
   </g>
 </svg>
