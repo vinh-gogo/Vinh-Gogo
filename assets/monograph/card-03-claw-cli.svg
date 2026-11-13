@@ -51,13 +51,9 @@
       <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
       <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
     </pattern>
-    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <clipPath id="clipCard03">
+      <rect x="0" y="0" width="590" height="312" rx="18"/>
+    </clipPath>
   </defs>
   <style>
     .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
@@ -71,12 +67,9 @@
     @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
     
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation: none !important; transition: none !important; }
+      * { animation: none !important; transition: none !important; }
     }
   </style>
-  <clipPath id="clipCard03">
-    <rect x="0" y="0" width="590" height="312" rx="18"/>
-  </clipPath>
   <g clip-path="url(#clipCard03)">
     <rect x="0" y="0" width="590" height="312" rx="18" fill="url(#bgAbyss)"/>
     <rect x="0" y="0" width="590" height="312" fill="url(#glowSapphire)"/>

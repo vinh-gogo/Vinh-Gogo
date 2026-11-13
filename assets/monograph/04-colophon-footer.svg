@@ -51,13 +51,9 @@
       <path d="M 64 0 H 0 V 64" fill="none" stroke="#3B82F6" stroke-opacity="0.065" stroke-width="1"/>
       <path d="M -2 0 H 2 M 0 -2 V 2" fill="none" stroke="#FBBF24" stroke-opacity="0.22" stroke-width="1"/>
     </pattern>
-    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <clipPath id="colophonClip">
+      <rect x="0" y="0" width="1200" height="196" rx="20"/>
+    </clipPath>
   </defs>
   <style>
     .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
@@ -71,20 +67,17 @@
     @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
     
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation: none !important; transition: none !important; }
+      * { animation: none !important; transition: none !important; }
     }
   </style>
-  <clipPath id="colophonClip">
-    <rect x="0" y="0" width="1200" height="196" rx="20"/>
-  </clipPath>
   <g clip-path="url(#colophonClip)">
     <rect x="0" y="0" width="1200" height="196" rx="20" fill="url(#bgAbyss)"/>
     <rect x="0" y="0" width="1200" height="196" fill="url(#glowSapphire)"/>
     <rect x="0" y="0" width="1200" height="196" fill="url(#glowGoldAmbient)"/>
     <rect x="0" y="0" width="1200" height="196" fill="url(#bpGrid)"/>
     <!-- Symmetrical Gold Rules & Octagonal Monogram Seal -->
-    <line x1="120" y1="52" x2="556" y2="52" stroke="url(#goldFade)" stroke-width="1.2"/>
-    <line x1="644" y1="52" x2="1080" y2="52" stroke="url(#goldFade)" stroke-width="1.2"/>
+    <rect x="120" y="51.4" width="436" height="1.2" fill="url(#goldFade)"/>
+    <rect x="644" y="51.4" width="436" height="1.2" fill="url(#goldFade)"/>
     <polygon points="624.0,61.9 609.9,76.0 590.1,76.0 576.0,61.9 576.0,42.1 590.1,28.0 609.9,28.0 624.0,42.1" fill="#081736" stroke="url(#goldFoil)" stroke-width="1.6"/>
     <text x="600" y="56" text-anchor="middle" class="serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#FEF3C7">LQV</text>
 

@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/monograph/02-architecture-bento.svg" width="100%" alt="Core AI R&D Architecture Bento — Generative AI, Video Diffusion, Hybrid GraphRAG, Saga Agents, On-Device Edge" />
+  <a href="https://glory-hinody.pages.dev/"><img src="assets/monograph/02-architecture-bento.svg" width="100%" alt="Core AI R&D Architecture Bento — Generative AI, Video Diffusion, Hybrid GraphRAG, Saga Agents, On-Device Edge" /></a>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/monograph/03-engineering-matrix.svg" width="100%" alt="Engineering Doctrine & Production Runtime Matrix" />
+  <a href="https://glory-hinody.pages.dev/"><img src="assets/monograph/03-engineering-matrix.svg" width="100%" alt="Engineering Doctrine & Production Runtime Matrix" /></a>
 </p>
 
 <p align="center">
