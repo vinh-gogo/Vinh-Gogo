@@ -13,6 +13,12 @@
 </p>
 
 <p align="center">
+  <a href="assets/videos/VI_ENG_conversation.mp4"><img src="assets/monograph/sec-voice-demo.svg" width="100%" alt="Bilingual VI-ENG &amp; Multi-Voice Synthesis — Live R&amp;D Demo" /></a>
+</p>
+
+https://github.com/user-attachments/assets/6877cc8f-0cb6-40ca-b84d-8a812f492ae5
+
+<p align="center">
   <a href="https://glory-hinody.pages.dev/"><img src="assets/monograph/sec-projects.svg" width="100%" alt="Flagship Production Systems & Technical Monographs" /></a>
 </p>
 

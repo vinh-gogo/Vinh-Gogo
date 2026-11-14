@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="124" viewBox="0 0 1600 124" role="img" aria-label="Bilingual VI–ENG &amp; Multi-Voice Synthesis — Live R&amp;D Demo">
+  <title>Bilingual VI–ENG &amp; Multi-Voice Synthesis — Live R&amp;D Demo</title>
+  <defs>
+    <clipPath id="clipFrame">
+      <rect x="0" y="0" width="1600" height="124" rx="24"/>
+    </clipPath>
+    <linearGradient id="bgRoyal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030714"/>
+      <stop offset="42%" stop-color="#081638"/>
+      <stop offset="78%" stop-color="#0D2254"/>
+      <stop offset="100%" stop-color="#040B1D"/>
+    </linearGradient>
+    <radialGradient id="orbSapphire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.44"/>
+      <stop offset="48%" stop-color="#1D4ED8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.34"/>
+      <stop offset="48%" stop-color="#B45309" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#030714" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldFoil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="28%" stop-color="#FEF08A"/>
+      <stop offset="58%" stop-color="#F59E0B"/>
+      <stop offset="84%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="royalBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.82"/>
+      <stop offset="36%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#1D4ED8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="goldBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldRuleFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FBBF24" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFBEB" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="royalGrid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 H 0 V 56" fill="none" stroke="#60A5FA" stroke-opacity="0.06" stroke-width="1"/>
+      <circle cx="28" cy="28" r="1" fill="#FDE68A" fill-opacity="0.14"/>
+    </pattern>
+    <linearGradient id="secShine" gradientUnits="userSpaceOnUse" x1="360" y1="0" x2="1240" y2="0" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#FEF08A"/>
+      <stop offset="70%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1760 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .wave-static { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+      .wave-anim { display: none !important; }
+      .wave-static { display: inline !important; }
+    }
+  </style>
+  <g clip-path="url(#clipFrame)">
+    <rect x="0" y="0" width="1600" height="124" fill="url(#bgRoyal)"/>
+    <rect x="0" y="0" width="1600" height="124" fill="url(#royalGrid)"/>
+    <circle cx="800" cy="62" r="380" fill="url(#orbGold)"/>
+    <circle cx="240" cy="62" r="260" fill="url(#orbSapphire)"/>
+    <circle cx="1360" cy="62" r="260" fill="url(#orbSapphire)"/>
+
+    <!-- Left & Right Symmetrical Acoustic Waveform Accents (Animated) -->
+    <g class="wave-anim" opacity="0.9">
+      <rect x="108" y="48" width="6" height="28" rx="3" fill="#38BDF8"><animate attributeName="y" values="48;36;48" dur="1.15s" repeatCount="indefinite"/><animate attributeName="height" values="28;52;28" dur="1.15s" repeatCount="indefinite"/></rect>
+      <rect x="122" y="38" width="6" height="48" rx="3" fill="url(#goldFoil)"><animate attributeName="y" values="38;50;38" dur="0.95s" repeatCount="indefinite"/><animate attributeName="height" values="48;24;48" dur="0.95s" repeatCount="indefinite"/></rect>
+      <rect x="136" y="32" width="6" height="60" rx="3" fill="#FEF08A"><animate attributeName="y" values="32;46;32" dur="0.85s" repeatCount="indefinite"/><animate attributeName="height" values="60;32;60" dur="0.85s" repeatCount="indefinite"/></rect>
+      <rect x="150" y="42" width="6" height="40" rx="3" fill="url(#goldFoil)"><animate attributeName="y" values="42;34;42" dur="1.05s" repeatCount="indefinite"/><animate attributeName="height" values="40;56;40" dur="1.05s" repeatCount="indefinite"/></rect>
+      <rect x="164" y="50" width="6" height="24" rx="3" fill="#38BDF8"><animate attributeName="y" values="50;38;50" dur="1.25s" repeatCount="indefinite"/><animate attributeName="height" values="24;48;24" dur="1.25s" repeatCount="indefinite"/></rect>
+      <rect x="1430" y="50" width="6" height="24" rx="3" fill="#38BDF8"><animate attributeName="y" values="50;38;50" dur="1.25s" repeatCount="indefinite"/><animate attributeName="height" values="24;48;24" dur="1.25s" repeatCount="indefinite"/></rect>
+      <rect x="1444" y="42" width="6" height="40" rx="3" fill="url(#goldFoil)"><animate attributeName="y" values="42;34;42" dur="1.05s" repeatCount="indefinite"/><animate attributeName="height" values="40;56;40" dur="1.05s" repeatCount="indefinite"/></rect>
+      <rect x="1458" y="32" width="6" height="60" rx="3" fill="#FEF08A"><animate attributeName="y" values="32;46;32" dur="0.85s" repeatCount="indefinite"/><animate attributeName="height" values="60;32;60" dur="0.85s" repeatCount="indefinite"/></rect>
+      <rect x="1472" y="38" width="6" height="48" rx="3" fill="url(#goldFoil)"><animate attributeName="y" values="38;50;38" dur="0.95s" repeatCount="indefinite"/><animate attributeName="height" values="48;24;48" dur="0.95s" repeatCount="indefinite"/></rect>
+      <rect x="1486" y="48" width="6" height="28" rx="3" fill="#38BDF8"><animate attributeName="y" values="48;36;48" dur="1.15s" repeatCount="indefinite"/><animate attributeName="height" values="28;52;28" dur="1.15s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- Static Reduced-Motion Fallback Waveforms -->
+    <g class="wave-static" opacity="0.9">
+      <rect x="108" y="48" width="6" height="28" rx="3" fill="#38BDF8"/>
+      <rect x="122" y="38" width="6" height="48" rx="3" fill="url(#goldFoil)"/>
+      <rect x="136" y="32" width="6" height="60" rx="3" fill="#FEF08A"/>
+      <rect x="150" y="42" width="6" height="40" rx="3" fill="url(#goldFoil)"/>
+      <rect x="164" y="50" width="6" height="24" rx="3" fill="#38BDF8"/>
+      <rect x="1430" y="50" width="6" height="24" rx="3" fill="#38BDF8"/>
+      <rect x="1444" y="42" width="6" height="40" rx="3" fill="url(#goldFoil)"/>
+      <rect x="1458" y="32" width="6" height="60" rx="3" fill="#FEF08A"/>
+      <rect x="1472" y="38" width="6" height="48" rx="3" fill="url(#goldFoil)"/>
+      <rect x="1486" y="48" width="6" height="28" rx="3" fill="#38BDF8"/>
+    </g>
+
+    <text class="sans" x="800" y="57" text-anchor="middle" font-size="31" font-weight="900" letter-spacing="2.6" fill="url(#secShine)">BILINGUAL VI–ENG &amp; MULTI-VOICE SYNTHESIS</text>
+    <rect x="380" y="72" width="840" height="2" fill="url(#goldRuleFade)"/>
+    <text class="mono" x="800" y="98" text-anchor="middle" font-size="11.8" font-weight="600" letter-spacing="1.8" fill="#CBD5E1">STORYTELLING • NEWS ANCHOR • EN–VI LECTURER • VI–EN DIALOGUE • CUSTOM VOICE REFERENCE</text>
+
+    <!-- Sweeping liquid-gold & sapphire edge light beams -->
+    <rect x="-420" y="0" width="420" height="3" fill="url(#goldBeam)">
+      <animate attributeName="x" values="-420;1600" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1600" y="121" width="420" height="3" fill="url(#goldBeam)">
+      <animate attributeName="x" values="1600;-420" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Double-bevelled royal luxury frame & machined 24K gold corner lugs -->
+    <rect x="7" y="7" width="1586" height="110" rx="19" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1"/>
+    <rect x="1" y="1" width="1598" height="122" rx="23" fill="none" stroke="url(#royalBorder)" stroke-width="2"/>
+    <g stroke="url(#goldFoil)" stroke-width="2.4" stroke-linecap="round" fill="none" opacity="0.92">
+      <path d="M 10 38 V 26 A 16 16 0 0 1 26 10 H 38"/>
+      <path d="M 1562 10 H 1574 A 16 16 0 0 1 1590 26 V 38"/>
+      <path d="M 10 86 V 98 A 16 16 0 0 0 26 114 H 38"/>
+      <path d="M 1562 114 H 1574 A 16 16 0 0 0 1590 98 V 86"/>
+    </g>
+  </g>
+</svg>
